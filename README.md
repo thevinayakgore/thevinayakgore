@@ -37,14 +37,14 @@
 </ul>
 
 ---
-<h2 align="left">🌟 Thought of the Day 🌟</h2>
+<h2 align="left">🪄 Thought of the Day</h2>
 
 <p align="left">
  <img src="https://readme-daily-quotes.vercel.app/api?author=Les%20Brown&quote=Know%20your%20gifts%20and%20share%20them.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff">
 </p>
 
 ---
-<h2 align="left">🤝 Let's Connect 🤝 </h2>
+<h2 align="left">🤝 Let's Connect</h2>
 <div align="left">
 
 <a href="[https://www.linkedin.com/in/thevinayakgore/](https://www.linkedin.com/in/thevinayakgore/)" target="_blank">
