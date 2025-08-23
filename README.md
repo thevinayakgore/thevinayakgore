@@ -1,4 +1,5 @@
 <!-- Replace banner.png with your own banner image -->
+
 ![🎓 GitHub Banner](./banner.png)
 
 <!-- You can keep the Night Owl image or replace it -->
@@ -7,11 +8,13 @@
 </div>
 
 <!-- Customize the header with your name -->
-# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 👋 Hey there ! I'M Vinayak Gore 
-*Digital Creater (Developer / Programmer)*
-<br /> 
 
-<!-- Customize your intro -->               
+# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 👋 Hey there ! I'M Vinayak Gore
+
+_Digital Creater (Developer / Programmer)_
+<br />
+
+<!-- Customize your intro -->
 <p align="left">I love to build Websites in Next.js !</p>
 
 - ✨ Learn | Build | Inspire
@@ -27,7 +30,8 @@
 </p>
 
 ---
-<h2 align="left">🚀 Tech Stacks & Latest Projects</h2> 
+
+<h2 align="left">🚀 Tech Stacks & Latest Projects</h2>
 
 <h3 align="left">😻 Currently Learning</h3>
 <ul align="left">
@@ -37,6 +41,7 @@
 </ul>
 
 ---
+
 <h2 align="left">🪄 Thought of the Day</h2>
 
 <p align="left">
@@ -44,38 +49,47 @@
 </p>
 
 ---
+
 <h2 align="left">🤝 Let's Connect</h2>
 <div align="left">
 
-<a href="[https://www.linkedin.com/in/thevinayakgore/](https://www.linkedin.com/in/thevinayakgore/)" target="_blank">
-<img src="https://img.icons8.com/color/48/000000/linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
+<a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
+<img src="linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
 </a>
 
-<a href="[https://www.github.com/thevinayakgore](https://github.com/thevinayakgore)" target="_blank">
-<img src="https://img.icons8.com/ios-filled/50/000000/github.png" width=50 height=50 alt="github" style="margin-bottom: 5px;" />
+<a href="https://www.youtube.com/@TheVinayakGore" target="_blank">
+<img src="youtube.png" width=50 height=50 alt="youtube" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://github.com/thevinayakgore" target="_blank">
+<img src="github.png" width=50 height=50 alt="github" style="margin-bottom: 5px;" />
 </a>
   
 <a href="mailto:thevinayakgore@gmail.com" target="_blank">
-<img src="https://img.icons8.com/color/48/000000/gmail.png" width=50 height=50 alt="mail" style="margin-bottom: 5px;" />
+<img src="gmail.png" width=50 height=50 alt="mail" style="margin-bottom: 5px;" />
 </a>
 
-<a href="[https://x.com/[The Vinayak Gore](https://x.com/thevinayakgore)" target="_blank">
-<img src="https://img.icons8.com/color/48/000000/twitter--v1.png" width=50 height=50 alt="x(twitter)" style="margin-bottom: 5px;" />
+<a href="https://x.com/thevinayakgore" target="_blank">
+<img src="x.png" width=50 height=50 alt="x(twitter)" style="margin-bottom: 5px;" />
 </a>
 
-<a href="[https://www.instagram.com/The Vinayak Gore](https://www.instagram.com/thevinayakgore/)" target="_blank">
-<img src="https://img.icons8.com/color/48/000000/instagram-new.png" width=50 height=50 alt="instagram" style="margin-bottom: 5px;" />
+<a href="https://www.instagram.com/thevinayakgore" target="_blank">
+<img src="instagram.png" width=50 height=50 alt="instagram" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://www.instagram.com/thevinayakgore" target="_blank">
+<img src="threads.png" width=50 height=50 alt="threads" style="margin-bottom: 5px;" />
 </a>
 
 </div>
 <br/>
 
-<!-- Buy me a coffee - 
+<!-- Buy me a coffee -
 <div align="center">
 <a href="https://www.buymeacoffee.com/thevinayakgore" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 200px !important;" ></a>
 </div> -->
 
-<!-- Footer --> 
+<!-- Footer -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer"/>
 </p>
