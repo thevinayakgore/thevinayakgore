@@ -40,12 +40,28 @@ _Digital Creater (Developer / Programmer)_
   <li>Python</li>
 </ul>
 
+<h3 align="left">🌐 Latest Projects</h3>
+<div align="left">
+    <a href="https://my-ai-codereviewer.vercel.app/" target="_blank">
+      <img src="01.png" width=350 height=auto alt="Project - 1" style="margin: 20px;" />
+    </a>
+    <a href="https://dailytik.vercel.app/" target="_blank">
+      <img src="02.png" width=350 height=auto alt="Project - 2" style="margin: 20px;" />
+    </a>
+    <a href="https://menzycart.vercel.app/" target="_blank">
+      <img src="03.png" width=350 height=auto alt="Project - 3" style="margin: 20px;" />
+    </a>
+    <a href="https://ownstockmanager.vercel.app/" target="_blank">
+      <img src="04.png" width=350 height=auto alt="Project - 4" style="margin: 20px;" />
+    </a>
+</ul>
+
 ---
 
 <h2 align="left">🪄 Thought of the Day</h2>
 
 <p align="left">
- <img src="https://readme-daily-quotes.vercel.app/api?author=Les%20Brown&quote=Know%20your%20gifts%20and%20share%20them.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff">
+ <img src="https://readme-daily-quotes.vercel.app/api?author=Les%20Brown&quote=Know%20your%20gifts%20and%20share%20them.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff" style="border: 6px solid #ffffff; border-radius: 10px; color: #ffff99;">
 </p>
 
 ---
