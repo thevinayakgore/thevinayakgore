@@ -11,63 +11,68 @@
 
 # <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 👋 Hey there ! I'M Vinayak Gore
 
-_Digital Creater (Developer / Programmer)_
+_🚀 Full Stack Web Developer_
 <br />
 
 <!-- Customize your intro -->
 <p align="left">I love to build Websites in Next.js !</p>
 
-- ✨ Learn | Build | Inspire
-- 🌱 I'm currently learning Angular
-- 💼 Full Stack Web Developer
-<!-- - ✍️ [Mention if you write blogs] -->
-- ❤️ Passion - Building Modern Websites
-- 💻 Visit my [Website](https://thevinayakgore.vercel.app/) for more details about me.
+✨ Learn | Build | Inspire <br>
+🌱 I'm currently working on my own new Portfolio website <br>
+💼 Full Stack Web Developer <br>
+❤️ Passion - Building Modern Websites <br>
+🌐 Visit my [Website](https://thevinayakgore.vercel.app/) for more details about me.
 
 <!-- Profile Count Badge - replace username -->
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="thevinayakgore" style="padding-right:20px;" />
 </p>
 
----
 
 <h2 align="left">🚀 Tech Stacks & Latest Projects</h2>
 
-<h3 align="left">😻 Currently Learning</h3>
-<ul align="left">
-  <li>Angular</li>
-  <li>Algorithm in C++</li>
-  <li>Python</li>
-</ul>
+<h2 align="left">😻 Tech Stacks</h2>
+  <ul align="left">
+    <li>Next.Js</li>
+    <li>React.Js</li>
+    <li>Framer Motion</li>
+    <li>Vite</li>
+    <li>Typescript</li>
+    <li>Javascript</li>
+    <li>MERN Stack</li>
+    <li>Sanity CMS</li>
+  </ul>
 
-<h3 align="left">🌐 Latest Projects</h3>
-<div align="left">
+<h2 align="center">🌐 Latest Projects</h2>
+
+<div align="center">
     <a href="https://my-ai-codereviewer.vercel.app/" target="_blank">
-      <img src="01.png" width=350 height=auto alt="Project - 1" style="margin: 20px;" />
+      <img src="01.png" width=410 height=auto alt="Project - 1" />
     </a>
     <a href="https://dailytik.vercel.app/" target="_blank">
-      <img src="02.png" width=350 height=auto alt="Project - 2" style="margin: 20px;" />
+      <img src="02.png" width=410 height=auto alt="Project - 2" />
     </a>
     <a href="https://menzycart.vercel.app/" target="_blank">
-      <img src="03.png" width=350 height=auto alt="Project - 3" style="margin: 20px;" />
+      <img src="03.png" width=410 height=auto alt="Project - 3" />
     </a>
     <a href="https://ownstockmanager.vercel.app/" target="_blank">
-      <img src="04.png" width=350 height=auto alt="Project - 4" style="margin: 20px;" />
+      <img src="04.png" width=410 height=auto alt="Project - 4" />
     </a>
 </ul>
 
----
 
-<h2 align="left">🪄 Thought of the Day</h2>
+<h2 align="center">🪄 Thought of the Day</h2>
 
-<p align="left">
- <img src="https://readme-daily-quotes.vercel.app/api?author=Les%20Brown&quote=Know%20your%20gifts%20and%20share%20them.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff" style="border: 6px solid #ffffff; border-radius: 10px; color: #ffff99;">
+<!--STARTS_HERE_QUOTE_CARD-->
+<p align="center">
+  <img src="https://readme-daily-quotes.vercel.app/api?author=A.A.%20Milne&quote=You%20can't%20stay%20in%20your%20corner%20of%20the%20Forest%20waiting%20for%20others%20to%20come%20to%20you.%20You%20have%20to%20go%20to%20them%20sometimes.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff" style="border: 6px solid #ffffff; border-radius: 10px;">
 </p>
+<!--ENDS_HERE_QUOTE_CARD-->
 
----
 
-<h2 align="left">🤝 Let's Connect</h2>
-<div align="left">
+<h2 align="center">🤝 Let's Connect</h2>
+
+<div align="center">
 
 <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
 <img src="linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
@@ -98,7 +103,6 @@ _Digital Creater (Developer / Programmer)_
 </a>
 
 </div>
-<br/>
 
 <!-- Buy me a coffee -
 <div align="center">
