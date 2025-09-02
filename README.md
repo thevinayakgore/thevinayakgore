@@ -63,11 +63,44 @@ _🚀 Full Stack Web Developer_
 
 <h2 align="center">🪄 Thought of the Day</h2>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?author=A.A.%20Milne&quote=You%20can't%20stay%20in%20your%20corner%20of%20the%20Forest%20waiting%20for%20others%20to%20come%20to%20you.%20You%20have%20to%20go%20to%20them%20sometimes.&theme=light&bg_color=000000&author_color=ffffff&accent_color=ffffff" style="border: 6px solid #ffffff; border-radius: 10px;">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Robert%20Browning&quote=Love%20is%20the%20energy%20of%20life.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h2 align="center">🤝 Let's Connect</h2>
