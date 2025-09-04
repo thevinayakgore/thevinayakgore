@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Maraboli&quote=Cry.%20Forgive.%20Learn.%20Move%20on.%20Let%20your%20tears%20water%20the%20seeds%20of%20your%20future%20happiness.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Denis%20Waitley&quote=You%20must%20welcome%20change%20as%20the%20rule%20but%20not%20as%20your%20ruler.%20&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
