@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Dogen&quote=Life%20and%20death%20are%20of%20supreme%20importance.%20Time%20swiftly%20passes%20by%20and%20opportunity%20is%20lost.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Zhuangzi&quote=Only%20he%20who%20has%20no%20use%20for%20the%20empire%20is%20fit%20to%20be%20entrusted%20with%20it.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
