@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Zhuangzi&quote=Only%20he%20who%20has%20no%20use%20for%20the%20empire%20is%20fit%20to%20be%20entrusted%20with%20it.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Joyce%20Meyer&quote=You%20cannot%20have%20a%20positive%20life%20and%20a%20negative%20mind.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
