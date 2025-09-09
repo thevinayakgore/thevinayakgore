@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Joyce%20Meyer&quote=You%20cannot%20have%20a%20positive%20life%20and%20a%20negative%20mind.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Johann%20Wolfgang%20von%20Goethe&quote=There%20is%20nothing%20more%20frightful%20than%20ignorance%20in%20action.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
