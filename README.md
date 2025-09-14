@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Deepak%20Chopra&quote=Every%20time%20you%20are%20tempted%20to%20react%20in%20the%20same%20old%20way%2C%20ask%20if%20you%20want%20to%20be%20a%20prisoner%20of%20the%20past%20or%20a%20pioneer%20of%20the%20future.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Franklin%20D.%20Roosevelt&quote=The%20only%20thing%20we%20have%20to%20fear%20is%20fear%20itself.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
