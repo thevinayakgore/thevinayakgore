@@ -82,7 +82,7 @@ _🚀 Full Stack Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Ayn%20Rand&quote=Learn%20to%20value%20yourself%2C%20which%20means%3A%20fight%20for%20your%20happiness.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Herodotus&quote=The%20destiny%20of%20man%20is%20in%20his%20own%20soul.%20&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
