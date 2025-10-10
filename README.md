@@ -101,9 +101,9 @@ _🚀 Frontend Web Developer_
 
 
 
-<h1 align="left">🤝 Let's Connect</h1>
+<h1 align="center">🤝 Let's Connect</h1>
 
-<div align="left">
+<div align="center">
 
 <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
 <img src="linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
