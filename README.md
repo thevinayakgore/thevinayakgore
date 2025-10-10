@@ -101,9 +101,9 @@ _🚀 Frontend Web Developer_
 
 
 
-<h1 align="center">🤝 Let's Connect</h1>
+<h1 align="left">🤝 Let's Connect</h1>
 
-<div align="center">
+<div align="left">
 
 <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
 <img src="linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
@@ -141,6 +141,6 @@ _🚀 Frontend Web Developer_
 </div> -->
 
 <!-- Footer -->
-<p align="center">
+<p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer"/>
 </p>
