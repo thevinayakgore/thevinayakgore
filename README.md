@@ -28,10 +28,7 @@ _🚀 Frontend Web Developer_
   <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="thevinayakgore" style="padding-right:20px;" />
 </p>
 
-
-<h2 align="left">🚀 Tech Stacks & Latest Projects</h2>
-
-<h2 align="left">😻 Tech Stacks</h2>
+<h1 align="left">😻 Tech Stacks</h1>
   <ul align="left">
     <li>Next.Js</li>
     <li>React</li>
@@ -44,7 +41,7 @@ _🚀 Frontend Web Developer_
     <li>MERN Stack</li>
   </ul>
 
-<h2 align="center">🌐 Latest Projects</h2>
+<h1 align="center">🌐 Latest Projects</h1>
 
 <div align="center">
     <a href="https://my-ai-codereviewer.vercel.app/" target="_blank">
@@ -62,7 +59,7 @@ _🚀 Frontend Web Developer_
 </ul>
 
 
-<h2 align="center">🪄 Thought of the Day</h2>
+<h1 align="center">🪄 Thought of the Day</h1>
 
 
 
@@ -104,7 +101,7 @@ _🚀 Frontend Web Developer_
 
 
 
-<h2 align="center">🤝 Let's Connect</h2>
+<h1 align="center">🤝 Let's Connect</h1>
 
 <div align="center">
 
