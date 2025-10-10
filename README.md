@@ -41,9 +41,9 @@ _🚀 Frontend Web Developer_
     <li>MERN Stack</li>
   </ul>
 
-<h1 align="center">🌐 Latest Projects</h1>
+<h1 align="left">🌐 Latest Projects</h1>
 
-<div align="center">
+<div align="left">
     <a href="https://my-ai-codereviewer.vercel.app/" target="_blank">
       <img src="01.png" width=410 height=auto alt="Project - 1" />
     </a>
@@ -59,7 +59,7 @@ _🚀 Frontend Web Developer_
 </ul>
 
 
-<h1 align="center">🪄 Thought of the Day</h1>
+<h1 align="left">🪄 Thought of the Day</h1>
 
 
 
@@ -79,7 +79,7 @@ _🚀 Frontend Web Developer_
 
 
 <!--STARTS_HERE_QUOTE_CARD-->
-<p align="center">
+<p align="left">
     <img src="https://readme-daily-quotes.vercel.app/api?author=Robert%20Browning&quote=Love%20is%20the%20energy%20of%20life.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
@@ -101,9 +101,9 @@ _🚀 Frontend Web Developer_
 
 
 
-<h1 align="center">🤝 Let's Connect</h1>
+<h1 align="left">🤝 Let's Connect</h1>
 
-<div align="center">
+<div align="left">
 
 <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
 <img src="linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
