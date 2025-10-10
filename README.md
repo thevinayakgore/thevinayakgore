@@ -11,7 +11,7 @@
 
 # <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 👋 Hey there ! I'M Vinayak Gore
 
-_🚀 Full Stack Web Developer_
+_🚀 Frontend Web Developer_
 <br />
 
 <!-- Customize your intro -->
@@ -19,7 +19,7 @@ _🚀 Full Stack Web Developer_
 
 ✨ Learn | Build | Inspire <br>
 🌱 I'm currently working on my own new Portfolio website <br>
-💼 Full Stack Web Developer <br>
+💼 Frontend Web Developer <br>
 ❤️ Passion - Building Modern Websites <br>
 🌐 Visit my [Website](https://thevinayakgore.vercel.app/) for more details about me.
 
@@ -34,13 +34,14 @@ _🚀 Full Stack Web Developer_
 <h2 align="left">😻 Tech Stacks</h2>
   <ul align="left">
     <li>Next.Js</li>
-    <li>React.Js</li>
-    <li>Framer Motion</li>
-    <li>Vite</li>
+    <li>React</li>
     <li>Typescript</li>
     <li>Javascript</li>
-    <li>MERN Stack</li>
     <li>Sanity CMS</li>
+    <li>Tailwind CSS</li>
+    <li>Bootstrap</li>
+    <li>Framer Motion</li>
+    <li>MERN Stack</li>
   </ul>
 
 <h2 align="center">🌐 Latest Projects</h2>
