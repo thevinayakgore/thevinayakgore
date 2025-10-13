@@ -79,7 +79,7 @@ _🚀 Frontend Web Developer_
 
 
 <!--STARTS_HERE_QUOTE_CARD-->
-<p align="center">
+<p align="left">
     <img src="https://readme-daily-quotes.vercel.app/api?author=Jack%20Butcher&quote=Anyone%20telling%20you%20it's%20pointless%20to%20share%20your%20perspective%20is%20sharing%20their%20perspective.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
