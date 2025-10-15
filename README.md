@@ -79,8 +79,8 @@ _🚀 Frontend Web Developer_
 
 
 <!--STARTS_HERE_QUOTE_CARD-->
-<p align="left">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Norman%20Vincent%20Peale&quote=It's%20always%20to%20soon%20to%20quit!&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+<p align="center">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Mother%20Teresa&quote=Kind%20words%20can%20be%20short%20and%20easy%20to%20speak%2C%20but%20their%20echoes%20are%20truly%20endless.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
