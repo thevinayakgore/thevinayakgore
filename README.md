@@ -80,7 +80,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Alan%20Watts&quote=Just%20as%20true%20humor%20is%20laughter%20at%20oneself%2C%20true%20humanity%20is%20knowledge%20of%20oneself.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Maya%20Angelou&quote=There%20is%20nothing%20quite%20so%20tragic%20as%20a%20young%20cynic.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
