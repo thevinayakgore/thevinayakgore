@@ -80,7 +80,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Earl%20Nightingale&quote=A%20person%20who%20does%20not%20read%20is%20no%20better%20than%20one%20cannot%20read.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Dogen&quote=A%20flower%20falls%2C%20even%20though%20we%20love%20it%3B%20and%20a%20weed%20grows%2C%20even%20though%20we%20do%20not%20love%20it.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
