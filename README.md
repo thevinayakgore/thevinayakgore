@@ -80,7 +80,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Dogen&quote=A%20flower%20falls%2C%20even%20though%20we%20love%20it%3B%20and%20a%20weed%20grows%2C%20even%20though%20we%20do%20not%20love%20it.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Johann%20Wolfgang%20von%20Goethe&quote=If%20you've%20never%20eaten%20while%20crying%20you%20don%20t%20know%20what%20life%20tastes%20like.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
