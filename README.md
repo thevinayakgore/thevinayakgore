@@ -64,8 +64,8 @@ _🚀 Frontend Web Developer_
 <h1 align="left">🪄 Thought of the Day</h1>
 
 <!--STARTS_HERE_QUOTE_CARD-->
-<p align="left">
-<img src="https://readme-daily-quotes.vercel.app/api?author=Kamal%20Ravikant&quote=I%20am%20not%20the%20outcome.%20I%20am%20never%20the%20result.%20I%20am%20only%20the%20effort.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+<p align="center">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Isaac%20Newton&quote=To%20arrive%20at%20the%20simplest%20truth%20requires%20years%20of%20contemplation.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
