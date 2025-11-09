@@ -65,7 +65,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Wayne%20Gretzky&quote=When%20you%20win%2C%20say%20nothing%2C%20when%20you%20lose%20say%20less.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Earl%20Nightingale&quote=Success%20is%20the%20progressive%20realization%20of%20a%20worthy%20goal%20or%20ideal.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
