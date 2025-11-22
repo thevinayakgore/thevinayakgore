@@ -1,5 +1,5 @@
 <!-- Replace banner.png with your own banner image -->
-![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fthevinayakgoredd7bc.png?alt=media)
+![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fthevinayakgore99465.png?alt=media)
 
 
 ![🎓 GitHub Banner](./banner.png)

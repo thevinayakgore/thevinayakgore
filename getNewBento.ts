@@ -1,5 +1,4 @@
-const apiUrl =
-  "https://opbento.edgexhq.tech/api/bento?n=Vinayak%20Gore&g=thevinayakgore&x=thevinayakgore&l=thevinayakgore&i=https%3A%2F%2Fthevinayakgore.vercel.app%2F_next%2Fimage%3Furl%3D%252Flogo.jpg%26w%3D1080%26q%3D75&p=https%3A%2F%2Fthevinayakgore.vercel.app%2F&z=dd7bc";
+const apiUrl = "https://opbento.edgexhq.tech/api/bento?n=Vinayak%20Gore&g=thevinayakgore&x=thevinayakgore&l=thevinayakgore&i=https%3A%2F%2Fthevinayakgore.vercel.app%2F_next%2Fimage%3Furl%3D%252Flogo.jpg%26w%3D1080%26q%3D75&p=thevinayakgore.vercel.app&z=99465";
 interface BentoResponse {
   url: string;
 }
