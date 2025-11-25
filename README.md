@@ -65,7 +65,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Barack%20Obama&quote=it's%20important%20to%20make%20sure%20that%20we're%20talking%20with%20each%20other%20in%20a%20way%20that%20heals%2C%20not%20in%20a%20way%20that%20wounds.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Christopher%20Reeve&quote=Words%20can%20only%20have%20a%20positive%20effect%20on%20others%20if%20and%20when%20they%20are%20ready%20to%20listen.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
