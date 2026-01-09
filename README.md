@@ -1,4 +1,3 @@
-<!-- Replace banner.png with your own banner image -->
 ![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fthevinayakgoref9d78.png?alt=media)
 
 
