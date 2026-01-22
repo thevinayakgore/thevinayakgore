@@ -63,7 +63,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Dan%20Millman&quote=You%20can%20live%20a%20whole%20life%20time%20never%20being%20awake.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Mark%20Manson&quote=If%20you%20want%20to%20change%20how%20you%20see%20your%20problems%2C%20you%20have%20to%20change%20what%20you%20value%20and%2For%20how%20you%20measure%20failure%2Fsuccess.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
