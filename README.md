@@ -63,7 +63,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Dale%20Carnegie&quote=Success%20is%20getting%20what%20you%20want...%20Happiness%20is%20wanting%20what%20you%20get.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Jim%20Rohn&quote=Don't%20wish%20it%20were%20easier%2C%20wish%20you%20were%20better.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
