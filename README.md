@@ -63,7 +63,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Nikola%20Tesla&quote=We%20crave%20for%20new%20sensations%20but%20soon%20become%20indifferent%20to%20them.%20The%20wonders%20of%20yesterday%20are%20today%20common%20occurrences%20&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Sun%20Tzu&quote=If%20you%20are%20far%20from%20the%20enemy%2C%20make%20him%20believe%20you%20are%20near.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
