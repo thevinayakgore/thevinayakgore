@@ -63,7 +63,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=T.S.%20Eliot&quote=Only%20those%20who%20will%20risk%20going%20too%20far%20can%20possibly%20find%20out%20how%20far%20one%20can%20go.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Denis%20Waitley&quote=There%20are%20two%20primary%20choices%20in%20life%3A%20to%20accept%20conditions%20as%20they%20exist%2C%20or%20accept%20the%20responsibility%20for%20changing%20them.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
