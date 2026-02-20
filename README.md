@@ -63,7 +63,7 @@ _🚀 Frontend Web Developer_
 
 <!--STARTS_HERE_QUOTE_CARD-->
 <p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Harvey&quote=Successful%20people%20appreciate%20where%20they%20have%20come%20from%2C%20but%20they%20don't%20let%20their%20past%20set%20the%20tone%20for%20their%20future.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Christopher%20Reeve&quote=Either%20you%20choose%20to%20stay%20in%20the%20shallow%20end%20of%20the%20pool%20or%20you%20go%20out%20into%20the%20ocean.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
 
