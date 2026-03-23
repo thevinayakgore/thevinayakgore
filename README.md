@@ -1,5 +1,6 @@
 ![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2FTheVinayakGore58fc3.png?alt=media)
 
+
 ![🎓 GitHub Banner](./banner.png)
 
 <!-- You can keep the Night Owl image or replace it -->
