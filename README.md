@@ -6,15 +6,15 @@
 <!-- Animated Typing Header -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Profile Views + Followers + Stars -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile+Views&color=a855f7&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="Followers" />
-  <img src="https://img.shields.io/badge/Focus-Frontend+Dev-a855f7?style=for-the-badge&labelColor=1a1a2e" alt="Focus" />
+  <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile+Views&color=0085ff&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=0085ff&labelColor=1a1a2e" alt="Followers" />
+  <img src="https://img.shields.io/badge/Focus-Frontend+Dev-0085ff?style=for-the-badge&labelColor=1a1a2e" alt="Focus" />
   <img src="https://img.shields.io/badge/Open%20To-Work-22c55e?style=for-the-badge&labelColor=1a1a2e" alt="Open to Work" />
 </p>
 
@@ -42,7 +42,7 @@
 <!-- Star this profile CTA -->
 <p align="center">
   <a href="https://github.com/thevinayakgore?tab=repositories">
-    <img src="https://img.shields.io/badge/⭐%20If%20you%20find%20my%20work%20useful,%20please%20Star%20my%20repos!-1a1a2e?style=for-the-badge&logo=github&logoColor=a855f7" alt="Star Repos" />
+    <img src="https://img.shields.io/badge/⭐%20If%20you%20find%20my%20work%20useful,%20please%20Star%20my%20repos!-1a1a2e?style=for-the-badge&logo=github&logoColor=0085ff" alt="Star Repos" />
   </a>
 </p>
 
@@ -143,23 +143,19 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=thevinayakgore&theme=tokyonight&hide_border=true&background=0D1117&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=thevinayakgore&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&hide_border=true" alt="Activity Graph" />
-</p>
+<a align="center" href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=thevinayakgore&theme=tokyonight&hide_border=true&background=0D1117&ring=0085ff&fire=0085ff&currStreakLabel=0085ff" alt="GitHub Streak" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=thevinayakgore&theme=github-dark" alt="GitHub Stats" />
+</a>
 
 ---
 
 ## 💡 Thought of the Day
 
-<!--STARTS_HERE_QUOTE_CARD-->
+<!--QUOTE_CARD-->
 <p align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?author=Wayne%20Gretzky&quote=When%20you%20win%2C%20say%20nothing%2C%20when%20you%20lose%20say%20less.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90" alt="Daily Quote" />
+  <img width="100%" src="https://readme-daily-quotes.vercel.app/api?author=Wayne%20Gretzky&quote=When%20you%20win%2C%20say%20nothing%2C%20when%20you%20lose%20say%20less.&theme=dark" alt="Daily Quote" />
 </p>
-<!--ENDS_HERE_QUOTE_CARD-->
 
 ---
 
@@ -198,10 +194,10 @@
 
 <!-- Star CTA -->
 <p align="center">
-  <img src="https://img.shields.io/badge/-%E2%AD%90%20Found%20something%20useful%3F%20Star%20the%20repo%20,%20it%20means%20a%20lot!%20%E2%AD%90-a855f7?style=for-the-badge&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/-%E2%AD%90%20Found%20something%20useful%3F%20Star%20the%20repo%20,%20it%20means%20a%20lot!%20%E2%AD%90-0085ff?style=for-the-badge&labelColor=1a1a2e" />
 </p>
 
 <!-- Footer Wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=a855f7&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0085ff&height=120&section=footer" />
 </p>
