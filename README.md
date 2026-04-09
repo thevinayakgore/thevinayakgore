@@ -6,16 +6,18 @@
 <!-- Animated Typing Header -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0085ff&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
 <!-- Profile Views + Followers + Stars -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile+Views&color=0085ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=0085ff&labelColor=1a1a2e" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/thevinayakgore?style=for-the-badge&color=3b82f6&labelColor=1a1a2e" alt="Stars" />
   <img src="https://img.shields.io/badge/Focus-Frontend+Dev-0085ff?style=for-the-badge&labelColor=1a1a2e" alt="Focus" />
   <img src="https://img.shields.io/badge/Open%20To-Work-22c55e?style=for-the-badge&labelColor=1a1a2e" alt="Open to Work" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=3b82f6&label=Public%20Repos&query=public_repos&url=https://api.github.com/users/thevinayakgore" alt="Public Repos Count" />
+  <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=0085ff&labelColor=1a1a2e" alt="Followers" />
 </p>
 
 ---
@@ -187,7 +189,7 @@
 
 <!-- Buy Me a Coffee -->
 <a href="https://paypal.me/thevinayakgore/5" target="_blank">
-  <img src="https://img.shields.io/badge/Support%20My%20Work-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+  <img src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
 </a>
 
 ---
