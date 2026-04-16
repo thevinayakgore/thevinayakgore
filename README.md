@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="./banner.png" alt="Vinayak Gore Banner" width="100%" />
+  <img src="./banner.png" alt="GitHub Banner" width="100%" />
 </p>
 
 <!-- Animated Typing Header -->
@@ -156,7 +156,7 @@
 
 <!--QUOTE_CARD-->
 <p align="center">
-  <img width="100%" src="https://readme-daily-quotes.vercel.app/api?author=Wayne%20Gretzky&quote=When%20you%20win%2C%20say%20nothing%2C%20when%20you%20lose%20say%20less.&theme=dark" alt="Daily Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Daily Quote" />
 </p>
 
 ---
@@ -201,5 +201,5 @@
 
 <!-- Footer Wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0085ff&height=120&section=footer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0085ff&height=150&section=footer" />
 </p>
