@@ -1,3 +1,5 @@
+![OpBento](https://opbento.vercel.app/api/bento/image?g=thevinayakgore&z=a1db7)
+
 <!-- Header Banner -->
 <p align="center">
   <img src="./banner.png" alt="GitHub Banner" width="100%" />
@@ -146,8 +148,8 @@
 ## 📊 GitHub Stats
 
 <a align="center" href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=thevinayakgore&theme=tokyonight&hide_border=true&background=0D1117&ring=0085ff&fire=0085ff&currStreakLabel=0085ff" alt="GitHub Streak" />
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=thevinayakgore&theme=github-dark" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=thevinayakgore&theme=tokyonight&hide_border=true&background=0D1117&ring=0085ff&fire=0085ff&currStreakLabel=0085ff" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=thevinayakgore&theme=github-dark" alt="GitHub Stats" />
 </a>
 
 ---
