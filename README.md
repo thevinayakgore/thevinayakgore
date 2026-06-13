@@ -1,3 +1,5 @@
+[![OpBento](https://opbento.vercel.app/api/bento/image?g=thevinayakgore&z=46b7a)](https://opbento.vercel.app)
+
 <!-- Header Banner -->
 <p align="center">
   <img src="./banner.png" alt="GitHub Banner" width="100%" />
