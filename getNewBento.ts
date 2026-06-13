@@ -11,17 +11,21 @@ async function fetchBentoUrl(): Promise<string> {
 }
 
 async function updateReadme() {
-  const newUrl = await fetchBentoUrl();
-  let readme = readFileSync("README.md", "utf-8");
+  let baseUrl = await fetchBentoUrl();
 
-  // Match the existing OpBento markdown link with image
+  // Add cache‑busting timestamp (daily unique parameter)
+  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const separator = baseUrl.includes('?') ? '&' : '?';
+  const newUrl = `${baseUrl}${separator}cache=${today}`;
+
+  let readme = readFileSync("README.md", "utf-8");
   const regex = /\[!\[OpBento\]\([^)]+\)\]\(https:\/\/opbento\.vercel\.app\)/;
   const replacement = `[![OpBento](${newUrl})](https://opbento.vercel.app)`;
 
   if (regex.test(readme)) {
     readme = readme.replace(regex, replacement);
     writeFileSync("README.md", readme, "utf-8");
-    console.log("✅ OpBento image URL updated");
+    console.log("✅ OpBento image URL updated with cache-buster");
   } else {
     console.warn("⚠️ Pattern not found – check the exact line in README.md");
   }
