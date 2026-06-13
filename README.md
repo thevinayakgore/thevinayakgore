@@ -1,4 +1,4 @@
-[![OpBento](https://opbento.vercel.app/api/bento/image?g=thevinayakgore&z=46b7a)](https://opbento.vercel.app)
+[![OpBento](https://opbento.vercel.app/api/bento/image?g=thevinayakgore&z=46b7a&cache=2026-06-13)](https://opbento.vercel.app)
 
 <!-- Header Banner -->
 <p align="center">
