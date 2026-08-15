@@ -13,7 +13,6 @@ export interface TechStack {
 export type LucideIconName = keyof typeof LucideIcons;
 
 export interface ProjectData {
-  slug: string;
   name: string;
   category: string;
   categoryIcon?: LucideIconName;
@@ -32,8 +31,53 @@ export interface ProjectData {
 
 export const PROJECTS: ProjectData[] = [
   {
+    name: "The Vinayak Gore - Portfolio",
+    category: "Portfolio",
+    categoryIcon: "User",
+    techs: [
+      { icon: "nextjs.webp" },
+      { icon: "react.webp" },
+      { icon: "typescript.webp" },
+      { icon: "tailwindcss.webp" },
+      { icon: "shadcnui.webp" },
+      { icon: "motion.webp" },
+      { icon: "resend.webp" },
+    ],
+    createdAt: "13-Jun-2026",
+    image: "portfolio.png",
+    desc: "A modern, minimal portfolio website built with Next.js 16, TypeScript, Tailwind CSS, and Shadcn UI. Features smooth animations, contact form with Resend, and a clean design to showcase my work and skills.",
+    isPublished: true,
+    demoUrl: "https://tvg.venumity.com",
+    githubUrl: "https://github.com/thevinayakgore/thevinayakgore",
+    features: [
+      {
+        title: "Modern Tech Stack",
+        desc: "Built with Next.js 16, TypeScript, and Tailwind CSS",
+      },
+      {
+        title: "Smooth Animations",
+        desc: "Framer Motion powered animations for engaging UX",
+      },
+      {
+        title: "Contact Form",
+        desc: "Working contact form with Resend email integration",
+      },
+      {
+        title: "Responsive Design",
+        desc: "Fully responsive across all devices and screen sizes",
+      },
+      {
+        title: "Shadcn UI Components",
+        desc: "Beautiful, accessible UI components from Shadcn",
+      },
+      {
+        title: "SEO Optimized",
+        desc: "Complete SEO with metadata, Open Graph, and JSON-LD",
+      },
+    ],
+  },
+  {
     name: "Venumity UI - Component Library",
-    slug: "uivenumity",
     category: "UI Design Systems",
     categoryIcon: "Palette",
     techs: [
@@ -44,7 +88,7 @@ export const PROJECTS: ProjectData[] = [
       { icon: "shadcnui.webp" },
       { icon: "motion.webp" },
     ],
-    createdAt: "2025-07-20T06:31:00.000Z",
+    createdAt: "26-Jan-2026",
     image: "ui.venumity.png",
     desc: "Open-Source UI library providing ready-to-use components, templates and developer resources built with Next.js, Tailwind CSS, ShadCN UI, and Framer Motion.",
     isPublished: true,
@@ -70,46 +114,7 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
-    name: "DailyTik - Daily Task Manager",
-    slug: "dailytik",
-    category: "Productivity",
-    categoryIcon: "CheckSquare",
-    techs: [
-      { icon: "nextjs.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-      { icon: "clerk.webp" },
-    ],
-    createdAt: "2025-06-22T06:31:00.000Z",
-    image: "dailytik.png",
-    desc: "DailyTik helps you organize your day with todos, notes, and more. Boost your productivity with a simple, beautiful, and powerful daily tracker.",
-    isPublished: true,
-    demoUrl: "https://dailytik.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/dailytik",
-    features: [
-      {
-        title: "Daily Tasks",
-        desc: "Create and manage daily tasks easily",
-      },
-      {
-        title: "Focus Mode",
-        desc: "Distraction-free focus mode for deep work",
-      },
-      {
-        title: "Streak Tracking",
-        desc: "Track your productivity streaks",
-      },
-      {
-        title: "Progress Analytics",
-        desc: "Visual insights into your productivity patterns",
-      },
-    ],
-  },
-  {
     name: "AI Code Reviewer",
-    slug: "ai-code-reviewer",
     category: "Gemini AI API",
     categoryIcon: "Bot",
     techs: [
@@ -119,7 +124,7 @@ export const PROJECTS: ProjectData[] = [
       { icon: "tailwindcss.webp" },
       { icon: "shadcnui.webp" },
     ],
-    createdAt: "2025-03-16T06:31:00.000Z",
+    createdAt: "16-Mar-2025",
     image: "aicodereview.png",
     desc: "AI-integrated web project that reviews your code for better and faster development. Powered by Google Gemini AI, this tool analyzes your code in real-time and gives helpful suggestions.",
     isPublished: true,
@@ -145,121 +150,7 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
-    name: "RecallCard - Memory Game",
-    slug: "recallcard",
-    category: "Gaming & Fun",
-    categoryIcon: "GraduationCap",
-    techs: [
-      { icon: "vite.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-      { icon: "motion.webp" },
-    ],
-    createdAt: "2025-07-15T06:31:00.000Z",
-    image: "recallcard.png",
-    desc: "A modern memory game built with React, TypeScript, Tailwind CSS, and shadcn/ui. Flip cards, match pairs, and challenge your memory!",
-    isPublished: true,
-    demoUrl: "https://recallcard.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/recallcard",
-    features: [
-      {
-        title: "32 cards",
-        desc: "4 rows x 8 columns with 16 unique React icons",
-      },
-      {
-        title: "Flip animation",
-        desc: "Horizontal 180° using Tailwind CSS",
-      },
-      {
-        title: "Timer & High Score",
-        desc: "High score saved in localStorage",
-      },
-      {
-        title: "Celebration animation",
-        desc: "On winning the game",
-      },
-    ],
-  },
-  {
-    name: "KeyStore - Password Manager",
-    slug: "keystore",
-    category: "Security & Tools",
-    categoryIcon: "Key",
-    techs: [
-      { icon: "nextjs.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-      { icon: "clerk.webp" },
-    ],
-    createdAt: "2025-04-10T06:31:00.000Z",
-    image: "keystore.png",
-    desc: "Secure password manager with end-to-end encryption, password generator, and secure vault for storing all your credentials safely.",
-    isPublished: true,
-    demoUrl: "https://mykeystore.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/mykeystore",
-    features: [
-      {
-        title: "End-to-End Encryption",
-        desc: "Your data is encrypted and only accessible to you",
-      },
-      {
-        title: "Password Generator",
-        desc: "Generate strong, unique passwords instantly",
-      },
-      {
-        title: "Secure Vault",
-        desc: "Store all your credentials in one secure place",
-      },
-      {
-        title: "Auto-fill",
-        desc: "Auto-fill passwords on websites and apps",
-      },
-    ],
-  },
-  {
-    name: "FingSprint - Typing Speed Test",
-    slug: "fingsprint",
-    category: "Gaming & Fun",
-    categoryIcon: "Keyboard",
-    techs: [
-      { icon: "nextjs.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-    ],
-    createdAt: "2025-06-28T06:31:00.000Z",
-    image: "fingsprint.png",
-    desc: "Test and improve your typing speed with real-time metrics. Track your WPM, accuracy, and progress over time.",
-    isPublished: true,
-    demoUrl: "https://fingsprint.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/fingsprint",
-    features: [
-      {
-        title: "WPM Tracking",
-        desc: "Track your words per minute in real-time",
-      },
-      {
-        title: "Accuracy Metrics",
-        desc: "Detailed accuracy and error tracking",
-      },
-      {
-        title: "Multiple Languages",
-        desc: "Practice typing in multiple languages",
-      },
-      {
-        title: "Leaderboard",
-        desc: "Compete with others on the leaderboard",
-      },
-    ],
-  },
-  {
     name: "Weather Dashboard",
-    slug: "weather-dashboard",
     category: "API Integration",
     categoryIcon: "Cloud",
     techs: [
@@ -269,7 +160,7 @@ export const PROJECTS: ProjectData[] = [
       { icon: "tailwindcss.webp" },
       { icon: "motion.webp" },
     ],
-    createdAt: "2025-02-01T06:31:00.000Z",
+    createdAt: "25-Aug-2025",
     image: "weather-dashboard.png",
     desc: "A modern, responsive weather dashboard built with Next.js, TypeScript, and Tailwind CSS that provides real-time weather information and forecasts for any location.",
     isPublished: true,
@@ -295,8 +186,214 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
+    name: "RecallCard - Memory Game",
+    category: "Gaming & Fun",
+    categoryIcon: "GraduationCap",
+    techs: [
+      { icon: "vite.webp" },
+      { icon: "react.webp" },
+      { icon: "typescript.webp" },
+      { icon: "tailwindcss.webp" },
+      { icon: "shadcnui.webp" },
+      { icon: "motion.webp" },
+    ],
+    createdAt: "15-Jul-2025",
+    image: "recallcard.png",
+    desc: "A modern memory game built with React, TypeScript, Tailwind CSS, and shadcn/ui. Flip cards, match pairs, and challenge your memory!",
+    isPublished: true,
+    demoUrl: "https://recallcard.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/recallcard",
+    features: [
+      {
+        title: "32 cards",
+        desc: "4 rows x 8 columns with 16 unique React icons",
+      },
+      {
+        title: "Flip animation",
+        desc: "Horizontal 180° using Tailwind CSS",
+      },
+      {
+        title: "Timer & High Score",
+        desc: "High score saved in localStorage",
+      },
+      {
+        title: "Celebration animation",
+        desc: "On winning the game",
+      },
+    ],
+  },
+  {
+    name: "DailyTik - Daily Task Manager",
+    category: "Productivity",
+    categoryIcon: "CheckSquare",
+    techs: [
+      { icon: "nextjs.webp" },
+      { icon: "react.webp" },
+      { icon: "typescript.webp" },
+      { icon: "tailwindcss.webp" },
+      { icon: "shadcnui.webp" },
+      { icon: "clerk.webp" },
+    ],
+    createdAt: "19-Jun-2025",
+    image: "dailytik.png",
+    desc: "DailyTik helps you organize your day with todos, notes, and more. Boost your productivity with a simple, beautiful, and powerful daily tracker.",
+    isPublished: true,
+    demoUrl: "https://dailytik.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/dailytik",
+    features: [
+      {
+        title: "Daily Tasks",
+        desc: "Create and manage daily tasks easily",
+      },
+      {
+        title: "Focus Mode",
+        desc: "Distraction-free focus mode for deep work",
+      },
+      {
+        title: "Streak Tracking",
+        desc: "Track your productivity streaks",
+      },
+      {
+        title: "Progress Analytics",
+        desc: "Visual insights into your productivity patterns",
+      },
+    ],
+  },
+  {
+    name: "FingSprint - Typing Speed Test",
+    category: "Gaming & Fun",
+    categoryIcon: "Keyboard",
+    techs: [
+      { icon: "nextjs.webp" },
+      { icon: "react.webp" },
+      { icon: "typescript.webp" },
+      { icon: "tailwindcss.webp" },
+      { icon: "shadcnui.webp" },
+    ],
+    createdAt: "26-Jun-2025",
+    image: "fingsprint.png",
+    desc: "Test and improve your typing speed with real-time metrics. Track your WPM, accuracy, and progress over time.",
+    isPublished: true,
+    demoUrl: "https://fingsprint.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/fingsprint",
+    features: [
+      {
+        title: "WPM Tracking",
+        desc: "Track your words per minute in real-time",
+      },
+      {
+        title: "Accuracy Metrics",
+        desc: "Detailed accuracy and error tracking",
+      },
+      {
+        title: "Multiple Languages",
+        desc: "Practice typing in multiple languages",
+      },
+      {
+        title: "Leaderboard",
+        desc: "Compete with others on the leaderboard",
+      },
+    ],
+  },
+  {
+    name: "KeyStore - Password Manager",
+    category: "Security & Tools",
+    categoryIcon: "Key",
+    techs: [
+      { icon: "nextjs.webp" },
+      { icon: "react.webp" },
+      { icon: "typescript.webp" },
+      { icon: "tailwindcss.webp" },
+      { icon: "shadcnui.webp" },
+      { icon: "clerk.webp" },
+    ],
+    createdAt: "26-Jun-2025",
+    image: "keystore.png",
+    desc: "Secure password manager with end-to-end encryption, password generator, and secure vault for storing all your credentials safely.",
+    isPublished: true,
+    demoUrl: "https://mykeystore.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/mykeystore",
+    features: [
+      {
+        title: "End-to-End Encryption",
+        desc: "Your data is encrypted and only accessible to you",
+      },
+      {
+        title: "Password Generator",
+        desc: "Generate strong, unique passwords instantly",
+      },
+      {
+        title: "Secure Vault",
+        desc: "Store all your credentials in one secure place",
+      },
+      {
+        title: "Auto-fill",
+        desc: "Auto-fill passwords on websites and apps",
+      },
+    ],
+  },
+  {
+    name: "Weather Web App",
+    category: "API Integration",
+    categoryIcon: "Cloud",
+    techs: [
+      { icon: "html.webp" },
+      { icon: "javascript.webp" },
+      { icon: "tailwindcss.webp" },
+    ],
+    createdAt: "27-Sep-2024",
+    image: "weather-web-app.png",
+    desc: "A modern, responsive weather dashboard built with Next.js, TypeScript, and Tailwind CSS that provides real-time weather information and forecasts for any location.",
+    isPublished: true,
+    demoUrl: "https://weather-dashboard-tvg.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/Weather-web-app",
+    features: [
+      {
+        title: "Real-time Weather Data",
+        desc: "Get current weather conditions for any city worldwide",
+      },
+      {
+        title: "5-Day Forecast",
+        desc: "View detailed weather forecasts for the upcoming days",
+      },
+      {
+        title: "Search Functionality",
+        desc: "Quickly find weather information for any location",
+      },
+      {
+        title: "Dark/Light Mode",
+        desc: "Toggle between themes for comfortable viewing",
+      },
+    ],
+  },
+  {
+    name: "DooZen - Todo App",
+    category: "Developer Tools",
+    categoryIcon: "ListTodo",
+    techs: [{ icon: "react.webp" }, { icon: "javascript.webp" }],
+    createdAt: "06-Jul-2024",
+    image: "doozen.png",
+    desc: "A simple and elegant To-Do web app built with React to help you stay organized and productive.",
+    isPublished: true,
+    demoUrl: "https://doozen.vercel.app",
+    githubUrl: "https://github.com/thevinayakgore/doozen",
+    features: [
+      {
+        title: "Task Management",
+        desc: "Create, complete, and delete tasks",
+      },
+      {
+        title: "Simple & Clean UI",
+        desc: "Minimal design for focused productivity",
+      },
+      {
+        title: "Responsive Design",
+        desc: "Works on all devices",
+      },
+    ],
+  },
+  {
     name: "Textify - Text Utilities",
-    slug: "textify",
     category: "Developer Tools",
     categoryIcon: "FileText",
     techs: [
@@ -304,12 +401,12 @@ export const PROJECTS: ProjectData[] = [
       { icon: "javascript.webp" },
       { icon: "tailwindcss.webp" },
     ],
-    createdAt: "2025-03-05T06:31:00.000Z",
+    createdAt: "27-Jun-2024",
     image: "textify.png",
     desc: "Collection of text utilities including case converter, word counter, character counter, text formatter, and more for developers and content creators.",
     isPublished: true,
     demoUrl: "https://mytextify.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/mytextify",
+    githubUrl: "https://github.com/thevinayakgore/textify",
     features: [
       {
         title: "Case Converter",
@@ -330,29 +427,36 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
-    name: "DooZen - Todo App",
-    slug: "doozen",
-    category: "Developer Tools",
-    categoryIcon: "ListTodo",
-    techs: [{ icon: "react.webp" }, { icon: "javascript.webp" }],
-    createdAt: "2025-06-04T06:31:00.000Z",
-    image: "doozen.png",
-    desc: "A simple and elegant To-Do web app built with React to help you stay organized and productive.",
+    name: "Snake Game",
+    category: "Gaming & Fun",
+    categoryIcon: "Gamepad2",
+    techs: [
+      { icon: "html.webp" },
+      { icon: "css.webp" },
+      { icon: "javascript.webp" },
+    ],
+    createdAt: "22-Sep-2023",
+    image: "snakegame.png",
+    desc: "A classic Snake game built with plain HTML, CSS, and JavaScript. Control the snake, eat food, grow longer, and avoid hitting the walls or yourself.",
     isPublished: true,
-    demoUrl: "https://doozen.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/doozen",
+    demoUrl: "https://thevinayakgore.github.io/Snake-Game",
+    githubUrl: "https://github.com/thevinayakgore/Snake-Game",
     features: [
       {
-        title: "Task Management",
-        desc: "Create, complete, and delete tasks",
+        title: "Classic Gameplay",
+        desc: "Move the snake, eat food, and grow while avoiding collisions",
       },
       {
-        title: "Simple & Clean UI",
-        desc: "Minimal design for focused productivity",
+        title: "Score Tracking",
+        desc: "Real-time score display based on food consumed",
+      },
+      {
+        title: "Keyboard Controls",
+        desc: "Use arrow keys to change direction and control the snake",
       },
       {
         title: "Responsive Design",
-        desc: "Works on all devices",
+        desc: "Playable on desktop and mobile browsers",
       },
     ],
   },

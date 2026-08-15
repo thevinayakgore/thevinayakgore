@@ -45,7 +45,7 @@ export async function POST(request: Request) {
 
     // Send email
     const { error } = await resend.emails.send({
-      from: "Portfolio Contact <creator@venumity.com>",
+      from: "Portfolio Contact <tvg@venumity.com>",
       to: ["thevinayakgore@gmail.com"],
       subject: `New Project Inquiry from ${safeName || "Anonymous"}`,
       html: `

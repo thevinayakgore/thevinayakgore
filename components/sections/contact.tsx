@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "@/components/ui/button";
-import { MessageSquareQuote, Send } from "lucide-react";
+import { Loader2, MessageSquareQuote, Send } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -84,7 +84,6 @@ export default function Contact() {
 
   return (
     <section
-      id="contact"
       className="flex flex-col gap-5 md:gap-10 max-w-6xl m-auto w-full"
     >
       <h2 className="sansita-swashed text-center p-5 text-7xl md:text-[15rem] bg-clip-text text-transparent bg-linear-to-b from-primary/60 via-primary/20 to-transparent tracking-tighter font-light leading-none">
@@ -188,12 +187,12 @@ export default function Contact() {
           >
             {isSubmitting ? (
               <>
-                <span className="animate-spin">⏳</span>
+                <Loader2 className="size-4 animate-spin" />
                 Sending...
               </>
             ) : (
               <>
-                Send Inquiry
+                Submit Message
                 <Send className="size-4" />
               </>
             )}

@@ -29,7 +29,7 @@ const OUTTER_LOOP = [
   }, // Bottom-Left (225°)
   {
     pos: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2",
-    src: "sanitycms.webp",
+    src: "sanity.webp",
   }, // Left (270°)
   {
     pos: "top-[14.6%] left-[14.6%] -translate-y-1/2 -translate-x-1/2",
@@ -74,7 +74,7 @@ const INNER_LOOP = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="flex flex-col items-center justify-center m-auto max-w-360 w-full">
+    <section className="flex flex-col items-center justify-center m-auto max-w-360 w-full">
       <div className="aspect-video relative z-0 mt-auto overflow-hidden w-full max-w-7xl">
         <div className="absolute -bottom-1/3 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center justify-center m-auto gap-3 w-full h-full">
           <h2 className="text-2xl md:text-4xl text-center tracking-tight">

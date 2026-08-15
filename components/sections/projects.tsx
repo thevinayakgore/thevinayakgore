@@ -165,10 +165,7 @@ export default function Projects() {
   }, [allProjects]);
 
   return (
-    <section
-      id="projects"
-      className="relative p-5 md:p-10 lg:p-20 md:pt-10! bg-foreground/5 w-full"
-    >
+    <section className="relative p-5 md:p-10 lg:p-20 md:pt-10! bg-foreground/5 w-full">
       <div className="flex flex-col items-center m-auto gap-5 max-w-6xl w-full">
         <h2 className="sansita-swashed text-center p-5 text-7xl md:text-[15rem] bg-clip-text text-transparent bg-linear-to-b from-primary/60 via-primary/20 to-transparent tracking-tighter font-light leading-none">
           Projects

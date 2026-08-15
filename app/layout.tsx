@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/utility/theme-provider";
 import Navbar from "@/components/sections/navbar";
 import Footer from "@/components/sections/footer";
+import SocialMedia from "@/components/sections/socialmedia";
 
 const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
@@ -25,20 +26,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://thevinayakgore.vercel.app"),
   title: {
-    default: "Vinayak Gore | Full Stack Developer & Creative Technologist",
+    default: "Frontend Engineer, Vinayak Gore & Creator of Venumity",
     template: "%s | Vinayak Gore",
   },
   description:
-    "Full Stack Developer specializing in Next.js, React, TypeScript, and modern web technologies.",
+    "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
   keywords: [
     "Vinayak Gore",
-    "Full Stack Developer",
+    "Frontend Engineer",
+    "Frontend Developer",
     "Web Developer",
     "Next.js Developer",
     "React Developer",
     "TypeScript",
     "Portfolio",
     "Software Engineer",
+    "UI Developer",
   ],
   authors: [
     {
@@ -64,23 +67,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://thevinayakgore.vercel.app",
     siteName: "Vinayak Gore | Portfolio",
-    title: "Vinayak Gore | Full Stack Developer & Creative Technologist",
+    title: "Vinayak Gore | Frontend Engineer & Creative Technologist",
     description:
-      "Full Stack Developer specializing in Next.js, React, TypeScript, and modern web technologies.",
+      "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Vinayak Gore - Full Stack Developer Portfolio",
+        alt: "Vinayak Gore - Frontend Engineer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vinayak Gore | Full Stack Developer",
+    title: "Vinayak Gore | Frontend Engineer",
     description:
-      "Full Stack Developer specializing in Next.js, React, TypeScript, and modern web technologies.",
+      "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
     images: ["/og-image.jpg"],
     creator: "@vinayakgore",
     site: "@vinayakgore",
@@ -92,7 +95,8 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   category: "technology",
-  classification: "Personal Portfolio, Developer Portfolio, Software Engineer",
+  classification:
+    "Personal Portfolio, Frontend Engineer Portfolio, UI Developer",
   applicationName: "Vinayak Gore Portfolio",
   referrer: "origin-when-cross-origin",
   formatDetection: {
@@ -124,7 +128,6 @@ export const metadata: Metadata = {
   },
 };
 
-// ✅ Move viewport and themeColor to separate export
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -155,7 +158,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        {/* Additional SEO meta tags */}
         <meta name="author" content="Vinayak Gore" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
@@ -163,17 +165,14 @@ export default function RootLayout({
         <meta name="distribution" content="global" />
         <meta name="rating" content="General" />
 
-        {/* Open Graph additional tags */}
         <meta property="og:email" content="vinayak@example.com" />
         <meta property="og:country-name" content="India" />
 
-        {/* Twitter additional tags */}
         <meta name="twitter:label1" content="Written by" />
         <meta name="twitter:data1" content="Vinayak Gore" />
         <meta name="twitter:label2" content="Est. reading time" />
         <meta name="twitter:data2" content="5 minutes" />
 
-        {/* JSON-LD structured data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -190,13 +189,13 @@ export default function RootLayout({
                 "https://instagram.com/vinayakgore",
                 "https://youtube.com/@vinayakgore",
               ],
-              jobTitle: "Full Stack Developer",
+              jobTitle: "Frontend Engineer",
               worksFor: {
                 "@type": "Organization",
                 name: "Freelance",
               },
               description:
-                "Full Stack Developer specializing in Next.js, React, TypeScript, and modern web technologies.",
+                "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
               email: "vinayak@example.com",
               address: {
                 "@type": "PostalAddress",
@@ -206,23 +205,20 @@ export default function RootLayout({
                 "Next.js",
                 "React",
                 "TypeScript",
-                "Node.js",
-                "Python",
-                "Docker",
-                "AWS",
-                "PostgreSQL",
+                "Tailwind CSS",
+                "Framer Motion",
+                "Shadcn UI",
               ],
               hasOccupation: {
                 "@type": "Occupation",
-                name: "Full Stack Developer",
+                name: "Frontend Engineer",
                 description:
-                  "Building web applications with modern technologies",
+                  "Building modern web applications with cutting-edge frontend technologies",
               },
             }),
           }}
         />
 
-        {/* Website structured data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -231,7 +227,7 @@ export default function RootLayout({
               "@type": "WebSite",
               url: "https://thevinayakgore.vercel.app",
               name: "Vinayak Gore Portfolio",
-              description: "Full Stack Developer & Creative Technologist",
+              description: "Frontend Engineer & Creative Technologist",
               author: {
                 "@type": "Person",
                 name: "Vinayak Gore",
@@ -240,7 +236,6 @@ export default function RootLayout({
           }}
         />
 
-        {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -248,7 +243,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
-        {/* DNS Prefetch */}
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
       </head>
       <body>
@@ -260,6 +254,7 @@ export default function RootLayout({
         >
           <TooltipProvider>
             <Navbar />
+            <SocialMedia />
             {children}
             <Footer />
           </TooltipProvider>

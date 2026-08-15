@@ -94,6 +94,25 @@
       <p align="center">Open-source UI library with <strong>copy-paste components</strong> and auto-dependency installation. Built with Next.js, Tailwind CSS, Shadcn UI, and Framer Motion.</p>
     </td>
     <td width="50%">
+      <h3 align="center">🖥️ The Vinayak Gore</h3>
+      <p align="center">
+        <a href="https://tvg.venumity.com" target="_blank">
+          <img src="./public/projects/portfolio.png" width="100%" alt="TVG Portfolio" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Shadcn_UI-000?style=flat-square" />
+        <img src="https://img.shields.io/badge/Framer_Motion-EF0071?style=flat-square&logo=framer&logoColor=white" />
+        <img src="https://img.shields.io/badge/Resend-000?style=flat-square&logo=resend&logoColor=white" />
+      </p>
+      <p align="center">Modern, minimal portfolio with <strong>smooth animations</strong> and working contact form. Built with Next.js 16, TypeScript, Tailwind CSS, Shadcn UI, and Resend.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">📅 DailyTik</h3>
       <p align="center">
         <a href="https://dailytik.vercel.app" target="_blank">
@@ -108,8 +127,6 @@
       </p>
       <p align="center">Daily task manager with focus mode, streaks, and progress analytics. Helps you stay organized and productive every day.</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">🤖 AI Code Reviewer</h3>
       <p align="center">
@@ -125,6 +142,8 @@
       </p>
       <p align="center">AI-powered code review tool with real-time suggestions and streaming responses, powered by Google Gemini AI.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">🧠 RecallCard</h3>
       <p align="center">
@@ -141,8 +160,6 @@
       </p>
       <p align="center">Modern memory card game with flip animations, timer, high score, and celebration effects. Built with React + TypeScript.</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">🔑 KeyStore</h3>
       <p align="center">
@@ -158,6 +175,8 @@
       </p>
       <p align="center">Secure password manager with end-to-end encryption, password generator, and secure vault for storing credentials safely.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">⌨️ FingSprint</h3>
       <p align="center">
@@ -173,8 +192,6 @@
       </p>
       <p align="center">Interactive typing speed test with real-time WPM tracking, accuracy metrics, and progress insights.</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">🌤️ Weather Dashboard</h3>
       <p align="center">
@@ -190,6 +207,8 @@
       </p>
       <p align="center">Real-time weather dashboard with 5‑day forecast, search functionality, and dark/light mode.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">📝 Textify</h3>
       <p align="center">
@@ -204,13 +223,11 @@
       </p>
       <p align="center">Collection of text utilities – case converter, word/character counter, formatter, and export options.</p>
     </td>
-  </tr>
-  <tr>
-    <td width="100%" colspan="2">
+    <td width="50%">
       <h3 align="center">📋 DooZen</h3>
       <p align="center">
         <a href="https://doozen.vercel.app" target="_blank">
-          <img src="./public/projects/doozen.png" width="50%" alt="DooZen" />
+          <img src="./public/projects/doozen.png" width="100%" alt="DooZen" />
         </a>
       </p>
       <p align="center">

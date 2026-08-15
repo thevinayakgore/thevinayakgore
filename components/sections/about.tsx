@@ -11,7 +11,9 @@ import {
 
 export default function About() {
   return (
-    <section id="about" className="relative p-5 md:p-10 lg:p-20 bg-foreground/5 w-full">
+    <section
+      className="relative p-5 md:p-10 lg:p-20 bg-foreground/5 w-full"
+    >
       <div className="flex flex-col items-start gap-5 md:gap-10 m-auto max-w-6xl w-full">
         <h2 className="sansita-swashed p-5 -ml-5 text-7xl md:text-[15rem] bg-clip-text text-transparent bg-linear-to-b from-primary/60 via-primary/20 to-transparent tracking-tighter font-light leading-none">
           About Me
@@ -21,14 +23,21 @@ export default function About() {
           {/* Left Column - Bio */}
           <div className="space-y-5">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I am Vinayak, a passionate Full Stack Developer with a love for
-              building elegant solutions to complex problems. My journey in tech
-              started with a curiosity for how things work, which evolved into a
-              career of creating digital experiences that make a difference.
+              I&apos;m Vinayak, a passionate{" "}
+              <span className="text-primary font-semibold">
+                Frontend Engineer
+              </span>{" "}
+              with a love for building elegant UI solutions to complex problems.
+              My journey in tech started with a curiosity for how things work,
+              which evolved into a career of creating digital experiences that
+              make a difference.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When I am not coding, I am exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with
+              contributing to{" "}
+              <span className="text-primary font-semibold">
+              open-source
+              </span>{" "} projects, or sharing knowledge with
               the developer community. I believe in writing clean, maintainable
               code and continuous learning.
             </p>

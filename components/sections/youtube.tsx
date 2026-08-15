@@ -24,7 +24,7 @@ function formatDate(iso: string): string {
   return Number.isNaN(d.getTime()) ? iso : dateFmt.format(d);
 }
 
-// ─── Video card (unchanged) ───────────────────────────────────────────────────
+// ─── Video card ──────────────────────────────────────────────────────────────
 const VideoCard = memo(function VideoCard({
   video,
   active,
@@ -87,7 +87,7 @@ const VideoCard = memo(function VideoCard({
   );
 });
 
-// ─── Dot button (same) ────────────────────────────────────────────────────────
+// ─── Dot button ──────────────────────────────────────────────────────────────
 const DotButton = memo(function DotButton({
   index,
   selected,
@@ -112,7 +112,7 @@ const DotButton = memo(function DotButton({
   );
 });
 
-// ─── Carousel with fixed dot count ───────────────────────────────────────────
+// ─── Carousel with fixed dot count ──────────────────────────────────────────
 const VideoCarousel = memo(function VideoCarousel() {
   const autoplay = useMemo(
     () =>
@@ -181,11 +181,10 @@ const VideoCarousel = memo(function VideoCarousel() {
   );
 });
 
-// ─── Main component ───────────────────────────────────────────────────────────
+// ─── Main component ──────────────────────────────────────────────────────────
 function YouTubeCarousel() {
   return (
     <section
-id="youtube"
       className="relative py-5 md:py-10 lg:py-20 max-w-360 m-auto w-full"
     >
       <h2 className="sansita-swashed text-center p-5 -mb-5 md:-mb-10 text-7xl md:text-[15rem] bg-clip-text text-transparent bg-linear-to-b from-primary/60 via-primary/20 to-transparent tracking-tighter font-light leading-none">
