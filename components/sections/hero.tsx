@@ -5,6 +5,7 @@ import { Button } from "../ui/button";
 import { username } from "@/lib/brand";
 import ThemeToggle from "./themetoggle";
 import { ArrowRight } from "lucide-react";
+import Quotes from "./quotes";
 
 export default function Hero() {
   return (
@@ -17,8 +18,10 @@ export default function Hero() {
         TVG
       </h1>
 
+
       <div className="flex items-start justify-end m-auto max-w-6xl w-full h-full">
         <div className="flex flex-col items-start justify-center text-start mt-auto lg:pb-15 gap-5 w-full">
+      <Quotes />
           <h2 className="text-4xl md:text-5xl lg:text-8xl font-semibold leading-none w-full">
             Namaste ⚡️
           </h2>
