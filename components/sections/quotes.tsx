@@ -111,25 +111,25 @@ export default function Quotes() {
 
   if (loading || !currentQuote) {
     return (
-      <section className="flex items-center justify-center m-auto text-center gap-2 animate-pulse ml-3 py-5 md:py-10 mb-5 md:mb-10">
+      <div className="flex items-center justify-center m-auto text-center gap-2 animate-pulse ml-3 py-5 md:py-10 mb-5 md:mb-10">
         <Loader className="size-6! animate-spin" />
         <span className="text-xl">Loading quote...</span>
-      </section>
+      </div>
     );
   }
 
   return (
-    <section className="flex flex-col items-start justify-start text-start gap-3 ml-3 py-5 md:py-10 w-150">
+    <div className="z-50 flex flex-col items-start justify-start text-start gap-3 ml-3 py-5 md:py-10 w-150">
       <h1 className="text-3xl font-medium">&quot;{currentQuote.item}&quot;</h1>
       <h3 className="text-xl text-foreground/50">
         &quot;{currentQuote.mean}&quot;
       </h3>
       <div className="flex items-center gap-5 ml-auto mt-5">
         <span className="text-xl leading-none">✨ {currentQuote.author}</span>
-        <span className="capitalize px-4 py-1 bg-foreground/10 backdrop-blur-md font-semibold rounded-full">
+        <span className="capitalize px-4 py-1.5 bg-foreground/10 backdrop-blur-md font-semibold rounded-full">
           {currentQuote.category}
         </span>
       </div>
-    </section>
+    </div>
   );
 }

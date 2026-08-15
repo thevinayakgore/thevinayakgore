@@ -5,21 +5,21 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { gitRepo } from "@/lib/brand";
 
 const IMAGES = [
-  "/thumbnails/card-1.png",
-  "/thumbnails/card-2.png",
-  "/thumbnails/card-3.png",
-  "/thumbnails/card-4.png",
-  "/thumbnails/card-5.png",
-  "/thumbnails/card-6.png",
-  "/thumbnails/card-7.png",
-  "/thumbnails/card-8.png",
-  "/thumbnails/card-9.png",
-  "/thumbnails/card-10.png",
-  "/thumbnails/card-11.png",
-  "/thumbnails/card-12.png",
-  "/thumbnails/card-13.png",
-  "/thumbnails/card-14.png",
-  "/thumbnails/card-15.png",
+  "/thumbnails/card-1.webp",
+  "/thumbnails/card-2.webp",
+  "/thumbnails/card-3.webp",
+  "/thumbnails/card-4.webp",
+  "/thumbnails/card-5.webp",
+  "/thumbnails/card-6.webp",
+  "/thumbnails/card-7.webp",
+  "/thumbnails/card-8.webp",
+  "/thumbnails/card-9.webp",
+  "/thumbnails/card-10.webp",
+  "/thumbnails/card-11.webp",
+  "/thumbnails/card-12.webp",
+  "/thumbnails/card-13.webp",
+  "/thumbnails/card-14.webp",
+  "/thumbnails/card-15.webp",
 ];
 
 export default function CTA() {

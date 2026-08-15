@@ -1,7 +1,7 @@
 "use client";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import { cn } from "@/lib/utils";
+import { useEffect, useState, useRef, useCallback } from "react";
 
 export const InfiniteMovingCards = ({
   items,
@@ -100,7 +100,7 @@ export const InfiniteMovingCards = ({
                 <div className="flex flex-col items-start w-full h-full">
                   {item.image && (
                     <Image
-                      src={item.image || "/card.png"}
+                      src={item.image || "/card.webp"}
                       alt={item.title || "Card"}
                       width={2000}
                       height={2000}

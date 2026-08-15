@@ -11,6 +11,7 @@ export const NAVLINKS: NavLinkItem[] = [
   { name: "YouTube", href: "#youtube" },
   { name: "Queries", href: "#faq" },
   { name: "Contact", href: "#contact" },
+  { name: "Actions", href: "#actions" },
 ];
 
 export const GRADIENTS_12 = [

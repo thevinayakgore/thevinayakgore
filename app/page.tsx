@@ -31,7 +31,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
-      <section id="cta">
+      <section id="actions">
         <CTA />
       </section>
     </main>
