@@ -6,7 +6,7 @@
 <!-- Animated Typing Header -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0085ff&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=1000&size=50&pause=1000&color=0085ff&center=true&vCenter=true&width=1000&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
@@ -20,23 +20,12 @@
   <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=0085ff&labelColor=1a1a2e" alt="Followers" />
 </p>
 
----
+--- 
 
-<!-- About Me -->
-
-# 😎 About Me
-
-- 🎓 **B.Tech Engineering** · VIIT Pune · 2025 Batch
-- 💼 **Frontend Engineer** focused on building modern UI with Next.js, React & TypeScript
-- 🎨 Crafting **high-quality UI components, templates & design systems** for real-world products
-- ✨ Passionate about **motion animations (Framer Motion)** to create smooth, engaging user experiences
-- 🚀 Built **[Venumity UI](https://venumity.vercel.app/)** – a growing library of reusable, production-ready components
-- 🌱 Exploring **AI-powered UI** & advancing toward full-stack (MERN) capabilities
-- ❤️ Love turning ideas into **fast, beautiful & conversion-focused interfaces**
-- 🌐 Portfolio → **[thevinayakgore.vercel.app](https://thevinayakgore.vercel.app/)**
-- 📫 Reach me at **thevinayakgore@gmail.com**
-
-<br clear="right"/>
+#### ✨ Frontend Engineer · Next.js · React · TS  
+#### 🚀 Animating the web with Framer Motion  
+#### 🤖 AI-powered UI explorer  
+#### 🎉 Design · Deploy · Inspire
 
 ---
 
@@ -73,7 +62,7 @@
 
 ## 🚀 Featured Projects
 
-> ⭐ **Star these repos if they inspire you!**
+> ⭐ **Star these repos if they inspire you !**
 
 <table>
   <tr>
@@ -81,7 +70,7 @@
       <h3 align="center">🎨 Venumity UI</h3>
       <p align="center">
         <a href="https://ui.venumity.com" target="_blank">
-          <img src="./public/projects/ui.venumity.png" width="100%" alt="Venumity UI" />
+          <img src="./public/projects/ui.venumity.webp" width="100%" alt="Venumity UI" />
         </a>
       </p>
       <p align="center">
@@ -97,7 +86,7 @@
       <h3 align="center">🖥️ The Vinayak Gore</h3>
       <p align="center">
         <a href="https://tvg.venumity.com" target="_blank">
-          <img src="./public/projects/portfolio.png" width="100%" alt="TVG Portfolio" />
+          <img src="./public/projects/portfolio.webp" width="100%" alt="TVG Portfolio" />
         </a>
       </p>
       <p align="center">
@@ -116,7 +105,7 @@
       <h3 align="center">📅 DailyTik</h3>
       <p align="center">
         <a href="https://dailytik.vercel.app" target="_blank">
-          <img src="./public/projects/dailytik.png" width="100%" alt="DailyTik" />
+          <img src="./public/projects/dailytik.webp" width="100%" alt="DailyTik" />
         </a>
       </p>
       <p align="center">
@@ -131,7 +120,7 @@
       <h3 align="center">🤖 AI Code Reviewer</h3>
       <p align="center">
         <a href="https://my-ai-codereviewer.vercel.app" target="_blank">
-          <img src="./public/projects/aicodereview.png" width="100%" alt="AI Code Reviewer" />
+          <img src="./public/projects/aicodereview.webp" width="100%" alt="AI Code Reviewer" />
         </a>
       </p>
       <p align="center">
@@ -148,7 +137,7 @@
       <h3 align="center">🧠 RecallCard</h3>
       <p align="center">
         <a href="https://recallcard.vercel.app" target="_blank">
-          <img src="./public/projects/recallcard.png" width="100%" alt="RecallCard" />
+          <img src="./public/projects/recallcard.webp" width="100%" alt="RecallCard" />
         </a>
       </p>
       <p align="center">
@@ -164,7 +153,7 @@
       <h3 align="center">🔑 KeyStore</h3>
       <p align="center">
         <a href="https://mykeystore.vercel.app" target="_blank">
-          <img src="./public/projects/keystore.png" width="100%" alt="KeyStore" />
+          <img src="./public/projects/keystore.webp" width="100%" alt="KeyStore" />
         </a>
       </p>
       <p align="center">
@@ -181,7 +170,7 @@
       <h3 align="center">⌨️ FingSprint</h3>
       <p align="center">
         <a href="https://fingsprint.vercel.app" target="_blank">
-          <img src="./public/projects/fingsprint.png" width="100%" alt="FingSprint" />
+          <img src="./public/projects/fingsprint.webp" width="100%" alt="FingSprint" />
         </a>
       </p>
       <p align="center">
@@ -196,7 +185,7 @@
       <h3 align="center">🌤️ Weather Dashboard</h3>
       <p align="center">
         <a href="https://weather-dashboard-tvg.vercel.app" target="_blank">
-          <img src="./public/projects/weather-dashboard.png" width="100%" alt="Weather Dashboard" />
+          <img src="./public/projects/weather-dashboard.webp" width="100%" alt="Weather Dashboard" />
         </a>
       </p>
       <p align="center">
@@ -213,7 +202,7 @@
       <h3 align="center">📝 Textify</h3>
       <p align="center">
         <a href="https://mytextify.vercel.app" target="_blank">
-          <img src="./public/projects/textify.png" width="100%" alt="Textify" />
+          <img src="./public/projects/textify.webp" width="100%" alt="Textify" />
         </a>
       </p>
       <p align="center">
@@ -227,7 +216,7 @@
       <h3 align="center">📋 DooZen</h3>
       <p align="center">
         <a href="https://doozen.vercel.app" target="_blank">
-          <img src="./public/projects/doozen.png" width="100%" alt="DooZen" />
+          <img src="./public/projects/doozen.webp" width="100%" alt="DooZen" />
         </a>
       </p>
       <p align="center">
@@ -238,8 +227,6 @@
     </td>
   </tr>
 </table>
-
----
 
 ## 💡 Thought of the Day
 
@@ -274,14 +261,6 @@
     <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads" />
   </a>
 </p>
-
-<!-- Buy Me a Coffee -->
-<a href="RAZORPAY_PAYMENT_LINK" target="_blank" rel="noopener noreferrer">
-  <img
-    src="https://img.shields.io/badge/Buy%20me%20a%20Coffee-Razorpay-3395FF?style=for-the-badge&logo=razorpay&logoColor=white"
-    alt="Buy me a coffee with Razorpay"
-  />
-</a>
 
 ---
 
