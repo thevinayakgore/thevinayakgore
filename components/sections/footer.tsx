@@ -1,9 +1,14 @@
+"use client";
 import { Separator } from "../ui/separator";
 import Link from "next/link";
 import { handle, username } from "@/lib/brand";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
   const currentYear = new Date().getFullYear();
+  
+  if (pathname?.startsWith("/screenshot")) return null;
 
   return (
     <footer className="p-5 md:pb-10 pt-0! text-xs text-foreground/50 font-medium max-w-360 m-auto w-full">

@@ -1,10 +1,12 @@
 "use client";
-import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { Menu, Minus, X } from "lucide-react";
 import { NAVLINKS } from "@/lib/constants";
+import { useState, useEffect } from "react";
+import { Menu, Minus, X } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
@@ -55,6 +57,8 @@ export default function Navbar() {
     }
     setIsOpen(false);
   };
+
+  if (pathname?.startsWith("/screenshot")) return null;
 
   return (
     <nav className="fixed bottom-5 left-3 z-1000! transform-gpu w-fit">

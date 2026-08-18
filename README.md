@@ -1,6 +1,8 @@
-<!-- Header Banner -->
+<!-- Bento Card - Updated Daily -->
 <p align="center">
-  <img src="./banner.png" alt="GitHub Banner" width="100%" />
+  <a href="https://tvg.venumity.com/creator">
+    <img src="./public/bento-card.png" alt="GitHub Stats Bento Card" width="100%" />
+  </a>
 </p>
 
 <!-- Animated Typing Header -->

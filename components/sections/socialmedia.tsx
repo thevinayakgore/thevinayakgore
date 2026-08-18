@@ -7,8 +7,12 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { usePathname } from "next/navigation";
 
 export default function SocialMedia() {
+  const pathname = usePathname();
+  if (pathname?.startsWith("/screenshot")) return null;
+
   return (
     <aside className="fixed bottom-5 right-3 z-1000! transform-gpu w-fit">
       <div className="hidden md:flex flex-col gap-3 p-3 bg-background/20 backdrop-blur-[2px] rounded-lg w-full h-full">

@@ -1,3 +1,4 @@
+// app/page.tsx
 import Hero from "@/components/sections/hero";
 import About from "@/components/sections/about";
 import Skills from "@/components/sections/skills";
@@ -6,6 +7,7 @@ import Youtube from "@/components/sections/youtube";
 import FAQ from "./faq/page";
 import CTA from "@/components/sections/cta";
 import Contact from "@/components/sections/contact";
+import Creator from "@/app/creator/page";
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="about">
+        <Creator />
       </section>
       <section id="skills">
         <Skills />
