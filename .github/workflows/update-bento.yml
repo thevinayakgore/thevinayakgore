@@ -2,8 +2,8 @@ name: Update Bento Card
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:      # Manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-bento:
@@ -13,11 +13,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'  # ✅ Changed from '20' to '22'
           cache: 'npm'
+      
       - run: npm ci
+      
       - run: npm run update-bento
         env:
           BASE_URL: https://tvg.venumity.com
