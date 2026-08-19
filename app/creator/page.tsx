@@ -579,7 +579,7 @@ export default function Creator() {
         className="relative flex flex-col justify-center p-5 bg-background ring-3 ring-foreground/15 border-5 border-background rounded-2xl overflow-hidden max-h-45"
         style={{ gridColumn: "span 2", gridRow: "span 3" }}
       >
-        <div className="relative z-20 flex items-center justify-center m-auto gap-5 p-5 md:pt-7 w-full h-full">
+        <div className="relative z-20 flex items-center justify-center m-auto gap-5 p-5 md:pt-10 md:pr-10 w-full h-full">
           {topLanguages.length > 0 ? (
             topLanguages.map((lang) => (
               <div
