@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ChartView from "./chart-view";
 import { Separator } from "@/components/ui/separator";
-import { Loader2 } from "lucide-react";
+import { Loader2, Quote } from "lucide-react";
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { formatCount } from "@/utils/format-count";
 import {
@@ -25,7 +25,13 @@ import {
   computeTotalForks,
   computeTopLanguages,
 } from "@/utils/bento-card";
-import { getDailyQuote } from "@/utils/quotes";
+import quotesData from "@/registry/quotes.json";
+
+interface Quote {
+  item: string;
+  author: string;
+  category: string;
+}
 
 // ── API functions ────────────────────────────────────────
 const USERNAME = "thevinayakgore";
@@ -142,12 +148,15 @@ function Heatmap({ weeks }: { weeks: ContributionWeek[] }) {
 
   const getColor = useCallback(
     (count: number) => {
-      if (count === 0) return "bg-blue-600/20";
-      const ratio = count / maxContributions;
-      if (ratio > 0.75) return "bg-blue-600";
-      if (ratio > 0.5) return "bg-blue-600/80";
-      if (ratio > 0.25) return "bg-blue-600/60";
-      return "bg-blue-600/50";
+      if (count <= 0 || maxContributions <= 0) {
+        return "bg-blue-500/15";
+      }
+      const percentage = (count / maxContributions) * 100;
+      if (percentage >= 100) return "bg-blue-500";
+      if (percentage >= 75) return "bg-blue-500/90";
+      if (percentage >= 50) return "bg-blue-500/70";
+      if (percentage >= 25) return "bg-blue-500/60";
+      return "bg-blue-500/40";
     },
     [maxContributions],
   );
@@ -160,7 +169,7 @@ function Heatmap({ weeks }: { weeks: ContributionWeek[] }) {
             <Tooltip key={di}>
               <TooltipTrigger>
                 <div
-                  className={`size-3.25 cursor-pointer rounded-xs ${getColor(day.contributionCount)}`}
+                  className={`size-3 cursor-pointer rounded-xs ${getColor(day.contributionCount)}`}
                 />
               </TooltipTrigger>
               <TooltipContent className="text-xs font-semibold px-2.5 py-1.5">
@@ -227,6 +236,12 @@ export default function Creator() {
     [data],
   );
 
+  function getSeededRandom(seed: number, min: number, max: number): number {
+    const x = Math.sin(seed) * 10000;
+    const random = x - Math.floor(x);
+    return Math.floor(random * (max - min + 1)) + min;
+  }
+
   if (loading) {
     return (
       <section id="bento-card" className="relative p-5 md:p-10 lg:p-20 w-full">
@@ -252,7 +267,7 @@ export default function Creator() {
   return (
     <section
       id="bento-card"
-      className="grid grid-cols-1 md:grid-cols-4 gap-2 max-w-6xl mx-auto w-full"
+      className="grid grid-cols-1 md:grid-cols-4 gap-2 p-3 max-w-6xl mx-auto w-full"
     >
       {/* Name */}
       <div
@@ -449,8 +464,9 @@ export default function Creator() {
           loading="eager"
           className="object-cover object-bottom-left absolute inset-0 scale-130 w-full h-full"
         />
-        <div className="absolute bottom-3 left-3 text-start z-30 text-white text-shadow-lg text-shadow-black/30">
-          <p className="text-8xl leading-none font-bold -mb-1">
+        <div className="absolute inset-x-0 bottom-0 left-0 bg-linear-to-tr from-black z-10 w-full h-full" />
+        <div className="absolute inset-x-0 bottom-0 left-0 p-5 text-start z-30 text-white text-shadow-lg text-shadow-black/30">
+          <p className="text-8xl leading-none font-bold">
             {formatCount(user.public_repos)}
           </p>
           <p className="text-3xl font-bold tracking-tight leading-none">
@@ -474,11 +490,11 @@ export default function Creator() {
           loading="eager"
           className="object-cover object-top-left absolute inset-0 scale-115 w-full h-full"
         />
-        <p className="absolute top-4 right-5 z-30 text-base text-center text-white/90 leading-none tracking-widest whitespace-nowrap w-fit">
-          Longest Contribution Streak From GitHub Journey
-        </p>
         <p className="absolute top-3 right-1/3 translate-x-1/3 z-30 p-5 text-center text-white text-shadow-lg text-shadow-black/25 text-9xl leading-none font-bold">
           {formatCount(stats.longestStreak)}
+        </p>
+        <p className="absolute top-2 right-1/3 translate-x-1/3 text-center z-30 text-white text-2xl font-bold tracking-tight leading-none">
+          Longest Streak
         </p>
       </div>
 
@@ -702,28 +718,56 @@ export default function Creator() {
         </div>
       </div>
 
-      {/* Daily Quotes */}
+      {/* Daily Quotes - English Only */}
       <div
         className="relative flex flex-col items-center justify-center p-5 text-center bg-foreground/5 ring-4 ring-foreground/10 border-5 border-background rounded-2xl overflow-hidden min-h-45"
         style={{ gridColumn: "span 3", gridRow: "span 3" }}
       >
         {(() => {
-          const quote = getDailyQuote();
+          const allQuotes = quotesData as Quote[];
+          const englishQuotes = allQuotes.filter(
+            (q) => !/[\u0900-\u097F]/.test(q.item),
+          );
+
+          // Use seeded random based on today's date
+          const today = new Date();
+          const dayOfYear = Math.floor(
+            (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) /
+              (1000 * 60 * 60 * 24),
+          );
+          const randomIndex = getSeededRandom(
+            dayOfYear,
+            0,
+            englishQuotes.length - 1,
+          );
+          const randomEnglishQuote = englishQuotes[randomIndex] || allQuotes[0];
+
           return (
-            <div className="flex flex-col items-start justify-start text-start ml-3 w-full">
-              <h3 className="text-3xl">&ldquo;{quote.item}&rdquo;</h3>
-              <p className="text-xl text-foreground/50">
-                &ldquo;{quote.mean}&rdquo;
-              </p>
+            <div className="flex flex-col items-start justify-between text-start ml-3 w-full h-full">
+              <h3 className="text-start text-3xl">
+                &ldquo;{randomEnglishQuote.item}&rdquo;
+              </h3>
               <div className="flex items-center gap-5 ml-auto mt-5">
-                <span className="text-xl leading-none">✨ {quote.author}</span>
-                <span className="capitalize px-4 py-1 bg-foreground/10 backdrop-blur-md font-semibold rounded-full">
-                  {quote.category}
+                <span className="text-xl leading-none">
+                  ✨ {randomEnglishQuote.author}
+                </span>
+                <span className="capitalize px-4 py-1.5 bg-foreground/20 backdrop-blur-md font-semibold rounded-full">
+                  {randomEnglishQuote.category}
                 </span>
               </div>
             </div>
           );
         })()}
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          strokeWidth="0"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          className="absolute -bottom-10 -left-5 size-50 opacity-8"
+        >
+          <path d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z" />
+        </svg>
       </div>
     </section>
   );
