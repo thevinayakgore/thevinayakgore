@@ -5,32 +5,6 @@
   </a>
 </p>
 
-<!-- Animated Typing Header -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=1000&size=50&pause=1000&color=0085ff&center=true&vCenter=true&width=1000&lines=Hey+there!+I'm+Vinayak+Gore+%F0%9F%91%8B;Frontend+Web+Developer+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript;Building+Modern+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
-  </a>
-</p>
-
-<!-- Profile Views + Followers + Stars -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=thevinayakgore&label=Profile+Views&color=0085ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/stars/thevinayakgore?style=for-the-badge&color=3b82f6&labelColor=1a1a2e" alt="Stars" />
-  <img src="https://img.shields.io/badge/Focus-Frontend+Dev-0085ff?style=for-the-badge&labelColor=1a1a2e" alt="Focus" />
-  <img src="https://img.shields.io/badge/Open%20To-Work-22c55e?style=for-the-badge&labelColor=1a1a2e" alt="Open to Work" />
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=3b82f6&label=Public%20Repos&query=public_repos&url=https://api.github.com/users/thevinayakgore" alt="Public Repos Count" />
-  <img src="https://img.shields.io/github/followers/thevinayakgore?label=Followers&style=for-the-badge&color=0085ff&labelColor=1a1a2e" alt="Followers" />
-</p>
-
---- 
-
-#### ✨ Frontend Engineer · Next.js · React · TS  
-#### 🚀 Animating the web with Framer Motion  
-#### 🤖 AI-powered UI explorer  
-#### 🎉 Design · Deploy · Inspire
-
----
-
 <!-- Star this profile CTA -->
 <p align="center">
   <a href="https://github.com/thevinayakgore?tab=repositories">
@@ -39,8 +13,6 @@
 </p>
 
 ---
-
-## 🛠️ Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -61,10 +33,6 @@
 </p>
 
 ---
-
-## 🚀 Featured Projects
-
-> ⭐ **Star these repos if they inspire you !**
 
 <table>
   <tr>
@@ -230,37 +198,27 @@
   </tr>
 </table>
 
-## 💡 Thought of the Day
-
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Daily Quote" />
-</p>
-
----
-
-## 🤝 Let's Connect
-
-<p align="left">
   <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./public/icons/linkedin.webp" alt="LinkedIn" width="40" height="40" />
   </a>
   <a href="https://x.com/thevinayakgore" target="_blank">
-    <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    <img src="./public/icons/twitter.webp" alt="X (Twitter)" width="40" height="40" />
   </a>
   <a href="https://www.instagram.com/thevinayakgore" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="./public/icons/instagram.webp" alt="Instagram" width="40" height="40" />
   </a>
   <a href="https://www.youtube.com/@TheVinayakGore" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+    <img src="./public/icons/youtube.webp" alt="YouTube" width="40" height="40" />
   </a>
   <a href="https://github.com/thevinayakgore" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="./public/icons/github.webp" alt="GitHub" width="40" height="40" />
   </a>
   <a href="mailto:thevinayakgore@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="./public/icons/mail.webp" alt="Gmail" width="40" height="40" />
   </a>
   <a href="https://www.threads.net/@thevinayakgore" target="_blank">
-    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads" />
+    <img src="./public/icons/threads.webp" alt="Threads" width="40" height="40" />
   </a>
 </p>
 
