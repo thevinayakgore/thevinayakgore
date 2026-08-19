@@ -31,17 +31,17 @@ import { getDailyQuote } from "@/utils/quotes";
 const USERNAME = "thevinayakgore";
 
 async function fetchGitHubUser(username: string): Promise<GitHubUser> {
-  const res = await fetch(`https://api.github.com/users/${username}`);
+  const res = await fetch(`/api/github/${username}`);
   if (!res.ok) throw new Error("User not found");
-  return res.json();
+  const data = await res.json();
+  return data.user; // The route returns { user, repos, orgs, ... }
 }
 
 async function fetchRepos(username: string): Promise<GitHubRepo[]> {
-  const res = await fetch(
-    `https://api.github.com/users/${username}/repos?per_page=100&sort=updated`,
-  );
+  const res = await fetch(`/api/github/${username}`);
   if (!res.ok) throw new Error("Failed to fetch repos");
-  return res.json();
+  const data = await res.json();
+  return data.repos; // The route returns repos array
 }
 
 async function fetchContributionStats(
@@ -50,6 +50,8 @@ async function fetchContributionStats(
   const res = await fetch(`/api/github/contributions?username=${username}`);
   if (!res.ok) throw new Error("Failed to fetch contribution stats");
   const json = await res.json();
+
+  // Handle GraphQL response structure
   const collection = json.data?.user?.contributionsCollection;
   if (!collection) throw new Error("No contribution data");
 
