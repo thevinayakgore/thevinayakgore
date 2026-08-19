@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap");
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -226,6 +227,10 @@ body {
 
 .sansita-swashed {
   font-family: "Sansita Swashed", system-ui;
+}
+
+.noto-sans-devanagari {
+  font-family: "Noto Sans Devanagari", sans-serif;
 }
 
 /* ==========================================================================

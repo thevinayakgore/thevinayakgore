@@ -1,6 +1,6 @@
 <!-- Bento Card - Updated Daily -->
 <p align="center">
-  <a href="https://tvg.venumity.com/creator">
+  <a href="https://tvg.venumity.com">
     <img src="./public/bento-card.png" alt="GitHub Stats Bento Card" width="100%" />
   </a>
 </p>
