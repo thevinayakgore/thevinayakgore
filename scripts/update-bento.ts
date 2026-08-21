@@ -69,7 +69,7 @@ async function updateBentoCard() {
         execSync('git config user.name "Vinayak Gore"');
         execSync('git config user.email "thevinayakgore@gmail.com"');
         execSync("git add public/bento-card.png");
-        execSync('git commit -m "chore: update bento card [skip ci]"');
+        execSync('git commit -m "chore: update bento card"');
         execSync("git push");
         console.log("✅ Changes committed and pushed");
       } else {
