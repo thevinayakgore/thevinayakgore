@@ -2,7 +2,7 @@ name: Update Bento Card
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,6 +20,11 @@ jobs:
           cache: 'npm'
       
       - run: npm install
+      
+      - name: Set Git user
+        run: |
+          git config user.name "Vinayak Gore"
+          git config user.email "thevinayakgore@gmail.com"
       
       - name: Update Bento Card
         run: npm run update-bento
