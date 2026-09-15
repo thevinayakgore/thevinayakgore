@@ -18,7 +18,7 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-      <section id="about" className="py-10 md:py-20">
+      <section id="github" className="py-10 md:py-20">
         <Creator />
       </section>
       <section id="skills">

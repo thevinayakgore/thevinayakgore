@@ -48,28 +48,48 @@ function aggregateByMonth(weeks: ContributionWeek[]): {
   startYear: number;
   endYear: number;
 } {
+  // ✅ Calculate exactly 365 days back from today
+  const today = new Date();
+  today.setHours(23, 59, 59, 999);
+  const oneYearAgo = new Date(today);
+  oneYearAgo.setDate(oneYearAgo.getDate() - 365);
+
   const monthly: Record<string, number> = {};
 
+  // Initialize all months
+  MONTHS.forEach((m) => {
+    monthly[m] = 0;
+  });
+
+  // Filter days only within the last 365 days
   const allDates = weeks
     .flatMap((w) => w.contributionDays.map((d) => d.date))
+    .filter((dateStr) => {
+      const date = new Date(dateStr);
+      return date >= oneYearAgo && date <= today;
+    })
     .sort();
 
-  const startDate = allDates.length > 0 ? new Date(allDates[0]) : new Date();
+  const startDate = allDates.length > 0 ? new Date(allDates[0]) : oneYearAgo;
   const endDate =
-    allDates.length > 0 ? new Date(allDates[allDates.length - 1]) : new Date();
+    allDates.length > 0 ? new Date(allDates[allDates.length - 1]) : today;
 
   const startYear = startDate.getFullYear();
   const endYear = endDate.getFullYear();
 
+  // Aggregate contributions by month
   weeks.forEach((week) => {
     week.contributionDays.forEach((day) => {
       const date = new Date(day.date);
-      const monthKey = MONTHS[date.getMonth()];
-      monthly[monthKey] = (monthly[monthKey] || 0) + day.contributionCount;
+      if (date >= oneYearAgo && date <= today) {
+        const monthKey = MONTHS[date.getMonth()];
+        monthly[monthKey] = (monthly[monthKey] || 0) + day.contributionCount;
+      }
     });
   });
 
-  const startMonth = startDate.getMonth();
+  // Rotate months so the first month is the start of the 365-day window
+  const startMonth = oneYearAgo.getMonth();
   const rotatedMonths = [
     ...MONTHS.slice(startMonth),
     ...MONTHS.slice(0, startMonth),
@@ -130,7 +150,7 @@ export default function ChartView({ weeks }: ChartViewProps) {
         <AreaChart
           accessibilityLayer
           data={chartData}
-          margin={{ left: 12, right: 12, top: 5, bottom: -5 }}
+          margin={{ left: 10, right: 5, top: 5, bottom: -5 }}
         >
           <CartesianGrid
             strokeDasharray="3 3"

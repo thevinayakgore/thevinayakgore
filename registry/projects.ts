@@ -114,42 +114,6 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
-    name: "AI Code Reviewer",
-    category: "Gemini AI API",
-    categoryIcon: "Bot",
-    techs: [
-      { icon: "nextjs.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-    ],
-    createdAt: "16-Mar-2025",
-    image: "aicodereview.webp",
-    desc: "AI-integrated web project that reviews your code for better and faster development. Powered by Google Gemini AI, this tool analyzes your code in real-time and gives helpful suggestions.",
-    isPublished: true,
-    demoUrl: "https://my-ai-codereviewer.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/AI-Code-Reviewer",
-    features: [
-      {
-        title: "Real-time AI code analysis",
-        desc: "Powered by Google Gemini AI",
-      },
-      {
-        title: "Markdown editor",
-        desc: "Built-in editor with syntax highlighting",
-      },
-      {
-        title: "Responsive UI",
-        desc: "Built with Tailwind CSS + Shadcn UI",
-      },
-      {
-        title: "Token-based prompt handling",
-        desc: "For reviewing specific parts of code",
-      },
-    ],
-  },
-  {
     name: "Weather Dashboard",
     category: "API Integration",
     categoryIcon: "Cloud",
@@ -223,43 +187,6 @@ export const PROJECTS: ProjectData[] = [
     ],
   },
   {
-    name: "DailyTik - Daily Task Manager",
-    category: "Productivity",
-    categoryIcon: "CheckSquare",
-    techs: [
-      { icon: "nextjs.webp" },
-      { icon: "react.webp" },
-      { icon: "typescript.webp" },
-      { icon: "tailwindcss.webp" },
-      { icon: "shadcnui.webp" },
-      { icon: "clerk.webp" },
-    ],
-    createdAt: "19-Jun-2025",
-    image: "dailytik.webp",
-    desc: "DailyTik helps you organize your day with todos, notes, and more. Boost your productivity with a simple, beautiful, and powerful daily tracker.",
-    isPublished: true,
-    demoUrl: "https://dailytik.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/dailytik",
-    features: [
-      {
-        title: "Daily Tasks",
-        desc: "Create and manage daily tasks easily",
-      },
-      {
-        title: "Focus Mode",
-        desc: "Distraction-free focus mode for deep work",
-      },
-      {
-        title: "Streak Tracking",
-        desc: "Track your productivity streaks",
-      },
-      {
-        title: "Progress Analytics",
-        desc: "Visual insights into your productivity patterns",
-      },
-    ],
-  },
-  {
     name: "FingSprint - Typing Speed Test",
     category: "Gaming & Fun",
     categoryIcon: "Keyboard",
@@ -329,100 +256,6 @@ export const PROJECTS: ProjectData[] = [
       {
         title: "Auto-fill",
         desc: "Auto-fill passwords on websites and apps",
-      },
-    ],
-  },
-  {
-    name: "Weather Web App",
-    category: "API Integration",
-    categoryIcon: "Cloud",
-    techs: [
-      { icon: "html.webp" },
-      { icon: "javascript.webp" },
-      { icon: "tailwindcss.webp" },
-    ],
-    createdAt: "27-Sep-2024",
-    image: "weather-web-app.webp",
-    desc: "A modern, responsive weather dashboard built with Next.js, TypeScript, and Tailwind CSS that provides real-time weather information and forecasts for any location.",
-    isPublished: true,
-    demoUrl: "https://weather-dashboard-tvg.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/Weather-web-app",
-    features: [
-      {
-        title: "Real-time Weather Data",
-        desc: "Get current weather conditions for any city worldwide",
-      },
-      {
-        title: "5-Day Forecast",
-        desc: "View detailed weather forecasts for the upcoming days",
-      },
-      {
-        title: "Search Functionality",
-        desc: "Quickly find weather information for any location",
-      },
-      {
-        title: "Dark/Light Mode",
-        desc: "Toggle between themes for comfortable viewing",
-      },
-    ],
-  },
-  {
-    name: "DooZen - Todo App",
-    category: "Developer Tools",
-    categoryIcon: "ListTodo",
-    techs: [{ icon: "react.webp" }, { icon: "javascript.webp" }],
-    createdAt: "06-Jul-2024",
-    image: "doozen.webp",
-    desc: "A simple and elegant To-Do web app built with React to help you stay organized and productive.",
-    isPublished: true,
-    demoUrl: "https://doozen.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/doozen",
-    features: [
-      {
-        title: "Task Management",
-        desc: "Create, complete, and delete tasks",
-      },
-      {
-        title: "Simple & Clean UI",
-        desc: "Minimal design for focused productivity",
-      },
-      {
-        title: "Responsive Design",
-        desc: "Works on all devices",
-      },
-    ],
-  },
-  {
-    name: "Textify - Text Utilities",
-    category: "Developer Tools",
-    categoryIcon: "FileText",
-    techs: [
-      { icon: "react.webp" },
-      { icon: "javascript.webp" },
-      { icon: "tailwindcss.webp" },
-    ],
-    createdAt: "27-Jun-2024",
-    image: "textify.webp",
-    desc: "Collection of text utilities including case converter, word counter, character counter, text formatter, and more for developers and content creators.",
-    isPublished: true,
-    demoUrl: "https://mytextify.vercel.app",
-    githubUrl: "https://github.com/thevinayakgore/textify",
-    features: [
-      {
-        title: "Case Converter",
-        desc: "Convert text between different cases",
-      },
-      {
-        title: "Word Counter",
-        desc: "Count words, characters, and paragraphs",
-      },
-      {
-        title: "Text Formatter",
-        desc: "Format and clean up text content",
-      },
-      {
-        title: "Export Options",
-        desc: "Export formatted text in various formats",
       },
     ],
   },

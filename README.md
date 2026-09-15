@@ -72,38 +72,6 @@
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">📅 DailyTik</h3>
-      <p align="center">
-        <a href="https://dailytik.vercel.app" target="_blank">
-          <img src="./public/projects/dailytik.webp" width="100%" alt="DailyTik" />
-        </a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white" />
-      </p>
-      <p align="center">Daily task manager with focus mode, streaks, and progress analytics. Helps you stay organized and productive every day.</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🤖 AI Code Reviewer</h3>
-      <p align="center">
-        <a href="https://my-ai-codereviewer.vercel.app" target="_blank">
-          <img src="./public/projects/aicodereview.webp" width="100%" alt="AI Code Reviewer" />
-        </a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Shadcn_UI-000?style=flat-square" />
-      </p>
-      <p align="center">AI-powered code review tool with real-time suggestions and streaming responses, powered by Google Gemini AI.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
       <h3 align="center">🧠 RecallCard</h3>
       <p align="center">
         <a href="https://recallcard.vercel.app" target="_blank">
@@ -165,35 +133,6 @@
         <img src="https://img.shields.io/badge/Framer_Motion-EF0071?style=flat-square&logo=framer&logoColor=white" />
       </p>
       <p align="center">Real-time weather dashboard with 5‑day forecast, search functionality, and dark/light mode.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📝 Textify</h3>
-      <p align="center">
-        <a href="https://mytextify.vercel.app" target="_blank">
-          <img src="./public/projects/textify.webp" width="100%" alt="Textify" />
-        </a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      </p>
-      <p align="center">Collection of text utilities – case converter, word/character counter, formatter, and export options.</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">📋 DooZen</h3>
-      <p align="center">
-        <a href="https://doozen.vercel.app" target="_blank">
-          <img src="./public/projects/doozen.webp" width="100%" alt="DooZen" />
-        </a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      </p>
-      <p align="center">Simple and elegant To‑Do web app to help you stay organized and productive.</p>
     </td>
   </tr>
 </table>

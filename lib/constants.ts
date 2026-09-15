@@ -6,6 +6,7 @@ type NavLinkItem = {
 export const NAVLINKS: NavLinkItem[] = [
   { name: "Hero", href: "#hero" },
   { name: "About", href: "#about" },
+  { name: "GitHub", href: "#github" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "YouTube", href: "#youtube" },
