@@ -73,25 +73,25 @@
 
 <p align="center" style="padding: 50px;">
   <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
-    <img src="./public/icons/linkedin.webp" alt="LinkedIn" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/linkedin.webp" alt="LinkedIn" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://x.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/twitter.webp" alt="X (Twitter)" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/twitter.webp" alt="X (Twitter)" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.instagram.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/instagram.webp" alt="Instagram" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/instagram.webp" alt="Instagram" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.youtube.com/@TheVinayakGore" target="_blank">
-    <img src="./public/icons/youtube.webp" alt="YouTube" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/youtube.webp" alt="YouTube" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://github.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/github.webp" alt="GitHub" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/github.webp" alt="GitHub" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="mailto:thevinayakgore@gmail.com" target="_blank">
-    <img src="./public/icons/mail.webp" alt="Gmail" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/mail.webp" alt="Gmail" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.threads.net/@thevinayakgore" target="_blank">
-    <img src="./public/icons/threads.webp" alt="Threads" width="55" height="55" style="border-radius: 6px;" />
+    <img src="./public/icons/threads.webp" alt="Threads" width="50" height="50" style="border-radius: 6px;" />
   </a>
 </p>
 
