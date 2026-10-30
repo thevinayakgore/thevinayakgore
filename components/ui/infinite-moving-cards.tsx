@@ -100,13 +100,12 @@ export const InfiniteMovingCards = ({
                 <div className="flex flex-col items-start w-full h-full">
                   {item.image && (
                     <Image
-                      src={item.image || "/card.webp"}
+                      src={item.image || "/card.png"}
                       alt={item.title || "Card"}
                       width={2000}
                       height={2000}
                       priority
                       unoptimized
-                      loading="eager"
                       className="object-cover w-full h-auto"
                     />
                   )}

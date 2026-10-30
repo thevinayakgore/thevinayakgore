@@ -1,6 +1,6 @@
 "use client";
-import { motion } from "framer-motion";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const OUTTER_LOOP = [
   {
@@ -76,11 +76,11 @@ export default function Skills() {
   return (
     <section className="flex flex-col items-center justify-center m-auto max-w-360 w-full">
       <div className="aspect-video relative z-0 mt-auto overflow-hidden w-full max-w-7xl">
-        <div className="absolute -bottom-1/3 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center justify-center m-auto gap-3 w-full h-full">
-          <h2 className="text-2xl md:text-4xl text-center tracking-tight">
+        <div className="absolute -bottom-1/3 left-1/2 -translate-x-1/2 mb-5 md:mb-10 z-50 flex flex-col items-center justify-center m-auto gap-3 w-full h-full">
+          <h2 className="text-2xl md:text-4xl text-center font-medium tracking-tight">
             Industry-Standard <br /> Techstacks for Development
           </h2>
-          <p className="mt-3 text-base md:text-lg text-center opacity-50 max-w-2xl mx-auto">
+          <p className="mt-3 text-base md:text-lg text-center text-muted-foreground max-w-2xl mx-auto">
             Build consistent, high-quality UI components using the frameworks,
             libraries, tools adopted by startups, agencies and freelance
             developers worldwide.

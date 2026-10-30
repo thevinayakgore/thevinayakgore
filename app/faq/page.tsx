@@ -19,7 +19,7 @@ const faqSchema = {
 };
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
@@ -51,20 +51,20 @@ export default function FAQ() {
                 >
                   <button
                     onClick={() => toggleFAQ(index)}
-                    className={`flex items-start justify-between cursor-pointer ${isOpen ? "p-1 pb-2" : "p-2"} transition-all duration-700 w-full`}
+                    className={`flex items-start justify-between ${isOpen ? "p-0.5 sm:p-1 pb-1.5 sm:pb-2" : "p-1.5 sm:p-2"} transition-all duration-700 w-full`}
                   >
-                    <div className="flex items-center gap-3">
-                      <div className="bg-foreground text-secondary p-3 shadow-md/20 rounded-md shrink-0">
-                        <IconComponent className="size-5" />
+                    <div className="flex items-center gap-2 sm:gap-3 pr-6 truncate min-w-0 w-fit">
+                      <div className="bg-white text-black shadow-lg/10 p-2 sm:p-3 rounded-sm sm:rounded-md shrink-0">
+                        <IconComponent className="size-4 sm:size-5" />
                       </div>
-                      <h3 className="text-base md:text-lg font-medium">
+                      <h3 className="text-base md:text-lg font-medium truncate min-w-0 w-fit">
                         {item.question}
                       </h3>
                     </div>
 
-                    <div className="absolute top-4 right-10 shrink-0 opacity-20 group-hover/faq:opacity-100 transition-all duration-700">
+                    <div className="absolute top-2 sm:top-4 right-8 sm:right-10 shrink-0 opacity-20 group-hover/faq:opacity-100 transition-all duration-700">
                       <ChevronUp
-                        className={`absolute inset-0 size-6 ${isOpen ? "rotate-y-180 rotate-x-180" : ""} transition-all duration-700`}
+                        className={`absolute inset-0 size-5 sm:size-6 ${isOpen ? "rotate-y-180 rotate-x-180" : ""} transition-all duration-700`}
                       />
                     </div>
                   </button>
@@ -98,7 +98,7 @@ export default function FAQ() {
                             ease: [0.22, 1, 0.36, 1],
                             delay: 0.2,
                           }}
-                          className="text-sm md:text-[0.95rem] tracking-wider text-foreground/60 py-4 px-5 bg-background rounded-md"
+                          className="text-xs sm:text-sm tracking-wider! text-muted-foreground py-2 sm:py-4 px-3 sm:px-5 bg-background rounded-md"
                         >
                           {item.answer}
                         </motion.p>

@@ -26,7 +26,7 @@ async function updateBentoCard() {
     await page.waitForSelector("#bento-card", { timeout: 10000 });
 
     try {
-      await page.waitForSelector(".loader, .animate-spin", { 
+      await page.waitForSelector(".loader, .animate-spin", {
         timeout: 2000,
         hidden: true,
       });
@@ -34,13 +34,15 @@ async function updateBentoCard() {
 
     await page.waitForFunction(
       () => {
-        const sections = document.querySelectorAll("#bento-card .text-3xl, #bento-card .text-5xl");
+        const sections = document.querySelectorAll(
+          "#bento-card .text-3xl, #bento-card .text-5xl",
+        );
         if (sections.length === 0) return false;
         const hasLoader = document.querySelector(".loader, .animate-spin");
         if (hasLoader) return false;
         return true;
       },
-      { timeout: 15000 }
+      { timeout: 15000 },
     );
 
     console.log("⏳ Waiting 10 seconds for complete rendering...");
@@ -63,15 +65,22 @@ async function updateBentoCard() {
     console.log(`✅ Bento card saved (${buffer.byteLength} bytes)`);
 
     if (process.env.GITHUB_ACTIONS) {
-      const gitStatus = execSync("git status --porcelain", { encoding: "utf8" });
+      const gitStatus = execSync("git status --porcelain", {
+        encoding: "utf8",
+      });
       if (gitStatus.includes("bento-card.png")) {
-        // ✅ This is the fix – sets your email so commits count
         execSync('git config user.name "Vinayak Gore"');
         execSync('git config user.email "thevinayakgore@gmail.com"');
         execSync("git add public/bento-card.png");
         execSync('git commit -m "chore: update bento card"');
+
+        // ✅ Second empty commit to double the contribution count
+        execSync(
+          'git commit --allow-empty -m "chore: bento card refresh heartbeat [skip ci]"',
+        );
+
         execSync("git push");
-        console.log("✅ Changes committed and pushed");
+        console.log("✅ 2 commits pushed (bento + heartbeat)");
       } else {
         console.log("ℹ️ No changes to commit");
       }

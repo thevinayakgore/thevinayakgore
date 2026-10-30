@@ -1,4 +1,4 @@
-// utils/bento-card.ts
+// utils/stats.ts
 import type { GitHubRepo, LanguageEntry } from "@/types/bento-card";
 
 export function computeTotalStars(repos: GitHubRepo[]): number {

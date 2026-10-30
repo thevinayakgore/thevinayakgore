@@ -83,9 +83,7 @@ export default function Contact() {
   };
 
   return (
-    <section
-      className="flex flex-col gap-5 md:gap-10 max-w-6xl m-auto w-full"
-    >
+    <section className="flex flex-col gap-5 md:gap-10 max-w-6xl m-auto w-full">
       <h2 className="sansita-swashed text-center p-5 text-7xl md:text-[15rem] bg-clip-text text-transparent bg-linear-to-b from-primary/60 via-primary/20 to-transparent tracking-tighter font-light leading-none">
         Let&apos;s Build
       </h2>
@@ -93,7 +91,7 @@ export default function Contact() {
       <div className="p-5 md:p-10 bg-foreground/5 border rounded-3xl w-full">
         <div className="flex items-start justify-between w-full">
           <div className="w-full">
-            <span className="text-base md:text-lg font-medium text-foreground/50 leading-none">
+            <span className="text-base md:text-lg text-muted-foreground leading-none">
               For more information
             </span>
             <h2 className="text-xl md:text-3xl font-medium mt-5 mb-3">
@@ -183,7 +181,7 @@ export default function Contact() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="p-5.5! mt-5 border-[0.8px] border-secondary/70! ring-2 ring-foreground bg-foreground! text-secondary! font-medium disabled:opacity-50 disabled:cursor-not-allowed w-60"
+            className="p-5.5! mt-5 border-[0.8px] border-secondary/70! ring-2 ring-foreground bg-foreground! text-secondary! font-semibold disabled:opacity-50 disabled:cursor-not-allowed w-60"
           >
             {isSubmitting ? (
               <>

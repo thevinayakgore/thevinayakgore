@@ -13,19 +13,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
-      
+
       - run: npm install
-      
+
       - name: Set Git user
         run: |
           git config user.name "Vinayak Gore"
           git config user.email "thevinayakgore@gmail.com"
-      
+
       - name: Update Bento Card
         run: npm run update-bento
         env:

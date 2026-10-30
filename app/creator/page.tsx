@@ -2,17 +2,18 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 import ChartView from "./chart-view";
-import { Separator } from "@/components/ui/separator";
 import { Loader2, Quote } from "lucide-react";
-import { useState, useEffect, useMemo, useCallback } from "react";
+import quotesData from "@/registry/quotes.json";
 import { formatCount } from "@/utils/format-count";
+import { Separator } from "@/components/ui/separator";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { cn } from "@/lib/utils";
 import type {
   GitHubUser,
   GitHubRepo,
@@ -24,8 +25,7 @@ import {
   computeTotalStars,
   computeTotalForks,
   computeTopLanguages,
-} from "@/utils/bento-card";
-import quotesData from "@/registry/quotes.json";
+} from "@/utils/stats";
 
 interface Quote {
   item: string;
@@ -269,49 +269,22 @@ export default function Creator() {
       id="bento-card"
       className="grid grid-cols-1 md:grid-cols-4 gap-2 p-3 max-w-6xl mx-auto w-full"
     >
-      {/* Name */}
-      <div
-        className="relative group flex flex-col items-center justify-center gap-3 p-3 border rounded-2xl overflow-hidden min-h-45 bg-card/50"
-        style={{ gridColumn: "span 1", gridRow: "span 5" }}
-      >
-        <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 text-center px-3 py-2 whitespace-nowrap bg-blue-600 text-white leading-none! rounded-lg w-fit">
-          <p className="text-base tracking-tight font-medium leading-none!">
-            {data?.user.name || data?.user.login || "Your Name"}
-          </p>
-          <Link
-            href={data ? `https://github.com/${data.user.login}` : "#"}
-            className="text-xs opacity-70 font-medium w-fit"
-          >
-            @{data?.user.login || "username"}
-          </Link>
-        </div>
-        <Image
-          src="/vinu.jpeg"
-          alt="Profile"
-          width={2000}
-          height={2000}
-          priority
-          unoptimized
-          loading="eager"
-          className="absolute inset-0 z-0 object-cover h-full w-full"
-        />
-      </div>
 
       {/* Cover Image */}
       <div
         className="relative border rounded-2xl overflow-hidden min-h-45"
-        style={{ gridColumn: "span 2", gridRow: "span 6" }}
+        style={{ gridColumn: "span 3", gridRow: "span 5" }}
       >
         <Image
-          src="/cover.png"
-          alt="Cover"
+          src="/banner.webp"
+          alt="Banner Image"
           width={2000}
           height={2000}
           loading="eager"
           unoptimized
-          className="object-cover h-full w-full"
+          className="object-cover scale-120 h-full w-full"
         />
-        <p className="absolute inset-x-0 bottom-0 left-0 z-50 text-sm font-medium flex flex-col px-4 py-3 mt-auto bg-white/10 backdrop-blur-md text-white w-full">
+        <p className="absolute inset-x-0 bottom-0 left-0 z-50 text-base font-medium flex flex-col px-6 py-4 mt-auto bg-orange-500 border-t border-white text-white text-shadow-lg/6 w-full">
           {data?.user.bio || "Your bio will appear here."}
         </p>
       </div>
@@ -341,8 +314,8 @@ export default function Creator() {
 
       {/* PRs */}
       <div
-        className="relative flex flex-col items-center justify-center text-green-500 rounded-2xl min-h-45 overflow-hidden"
-        style={{ gridColumn: "span 1", gridRow: "span 3" }}
+        className="relative flex flex-col items-center justify-center text-white rounded-2xl min-h-45 overflow-hidden"
+        style={{ gridColumn: "span 1", gridRow: "span 2" }}
       >
         <Image
           src="/assets/waves.jpg"
@@ -393,7 +366,7 @@ export default function Creator() {
       {/* Chart */}
       <div
         className="flex flex-col items-center p-4 bg-linear-to-br from-rose-500/30 via-background to-rose-500/30 rounded-2xl w-full"
-        style={{ gridColumn: "span 2", gridRow: "span 3" }}
+        style={{ gridColumn: "span 2", gridRow: "span 4" }}
       >
         <ChartView weeks={stats.weeks} />
       </div>
@@ -401,7 +374,7 @@ export default function Creator() {
       {/* Twitter */}
       <div
         className="relative flex flex-col items-center justify-center gap-2 rounded-2xl overflow-hidden min-h-45"
-        style={{ gridColumn: "span 1", gridRow: "span 3" }}
+        style={{ gridColumn: "span 1", gridRow: "span 4" }}
       >
         <Image
           src="/assets/twitter.jpg"
@@ -576,7 +549,7 @@ export default function Creator() {
 
       {/* Top Languages */}
       <div
-        className="relative flex flex-col justify-center p-5 bg-background ring-3 ring-foreground/15 border-5 border-background rounded-2xl overflow-hidden max-h-45"
+        className="relative flex flex-col justify-center p-5 bg-background ring-3 ring-foreground/10 border-3 border-background rounded-2xl overflow-hidden max-h-45"
         style={{ gridColumn: "span 2", gridRow: "span 3" }}
       >
         <div className="relative z-20 flex items-center justify-center m-auto gap-5 p-5 md:pt-10 md:pr-10 w-full h-full">
@@ -720,7 +693,7 @@ export default function Creator() {
 
       {/* Daily Quotes - English Only */}
       <div
-        className="relative flex flex-col items-center justify-center p-5 text-center bg-foreground/5 ring-4 ring-foreground/10 border-5 border-background rounded-2xl overflow-hidden min-h-45"
+        className="relative flex flex-col items-center justify-center p-5 text-center bg-foreground/5 ring-3 ring-foreground/10 border-3 border-background rounded-2xl overflow-hidden min-h-45"
         style={{ gridColumn: "span 3", gridRow: "span 3" }}
       >
         {(() => {
@@ -744,14 +717,14 @@ export default function Creator() {
 
           return (
             <div className="flex flex-col items-start justify-between text-start ml-3 w-full h-full">
-              <h3 className="text-start text-3xl">
+              <h3 className="text-start text-2xl">
                 &ldquo;{randomEnglishQuote.item}&rdquo;
               </h3>
-              <div className="flex items-center gap-5 ml-auto mt-5">
-                <span className="text-xl leading-none">
+              <div className="flex items-center gap-4 ml-auto">
+                <span className="text-base leading-none">
                   ✨ {randomEnglishQuote.author}
                 </span>
-                <span className="capitalize px-4 py-1.5 bg-foreground/20 backdrop-blur-md font-semibold rounded-full">
+                <span className="capitalize text-sm px-3 py-1 bg-foreground/10 dark:bg-foreground/20 backdrop-blur-md font-medium rounded-full">
                   {randomEnglishQuote.category}
                 </span>
               </div>
@@ -764,7 +737,7 @@ export default function Creator() {
           strokeWidth="0"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute -bottom-10 -left-5 size-50 opacity-8"
+          className="absolute -bottom-10 -left-5 size-40 opacity-8"
         >
           <path d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z" />
         </svg>
