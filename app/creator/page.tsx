@@ -282,11 +282,11 @@ export default function Creator() {
           height={2000}
           loading="eager"
           unoptimized
-          className="object-cover scale-120 h-full w-full"
+          className="object-cover h-full w-full"
         />
-        <p className="absolute inset-x-0 bottom-0 left-0 z-50 text-base font-medium flex flex-col px-6 py-4 mt-auto bg-orange-500 border-t border-white text-white text-shadow-lg/6 w-full">
+        {/* <p className="absolute inset-x-0 bottom-0 left-0 z-50 text-base font-medium flex flex-col px-6 py-4 mt-auto bg-white text-black w-full">
           {data?.user.bio || "Your bio will appear here."}
-        </p>
+        </p> */}
       </div>
 
       {/* Total Stars */}
