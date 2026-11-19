@@ -26,7 +26,7 @@ export default function Hero() {
             Namaste ⚡️
           </h2>
           <h3 className="text-xl md:text-2xl leading-none">
-            Frontend Engineer & Creator Of Venumity
+            Design Engineer & Creator Of Venumity
           </h3>
           <p className="text-base text-muted-foreground max-w-md">
             Building exceptional digital experiences with modern web

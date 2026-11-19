@@ -26,14 +26,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://thevinayakgore.vercel.app"),
   title: {
-    default: "Frontend Engineer, Vinayak Gore & Creator of Venumity",
+    default: "Design Engineer, Vinayak Gore & Creator of Venumity",
     template: "%s | Vinayak Gore",
   },
   description:
-    "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
+    "Design Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
   keywords: [
     "Vinayak Gore",
-    "Frontend Engineer",
+    "Design Engineer",
     "Frontend Developer",
     "Web Developer",
     "Next.js Developer",
@@ -67,23 +67,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://thevinayakgore.vercel.app",
     siteName: "Vinayak Gore | Portfolio",
-    title: "Vinayak Gore | Frontend Engineer & Creative Technologist",
+    title: "Vinayak Gore | Design Engineer & Creative Technologist",
     description:
-      "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
+      "Design Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Vinayak Gore - Frontend Engineer Portfolio",
+        alt: "Vinayak Gore - Design Engineer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vinayak Gore | Frontend Engineer",
+    title: "Vinayak Gore | Design Engineer",
     description:
-      "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
+      "Design Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
     images: ["/og-image.jpg"],
     creator: "@vinayakgore",
     site: "@vinayakgore",
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   },
   category: "technology",
   classification:
-    "Personal Portfolio, Frontend Engineer Portfolio, UI Developer",
+    "Personal Portfolio, Design Engineer Portfolio, UI Developer",
   applicationName: "Vinayak Gore Portfolio",
   referrer: "origin-when-cross-origin",
   formatDetection: {
@@ -189,13 +189,13 @@ export default function RootLayout({
                 "https://instagram.com/vinayakgore",
                 "https://youtube.com/@vinayakgore",
               ],
-              jobTitle: "Frontend Engineer",
+              jobTitle: "Design Engineer",
               worksFor: {
                 "@type": "Organization",
                 name: "Freelance",
               },
               description:
-                "Frontend Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
+                "Design Engineer specializing in Next.js, React, TypeScript, and modern web technologies.",
               email: "vinayak@example.com",
               address: {
                 "@type": "PostalAddress",
@@ -211,7 +211,7 @@ export default function RootLayout({
               ],
               hasOccupation: {
                 "@type": "Occupation",
-                name: "Frontend Engineer",
+                name: "Design Engineer",
                 description:
                   "Building modern web applications with cutting-edge frontend technologies",
               },
@@ -227,7 +227,7 @@ export default function RootLayout({
               "@type": "WebSite",
               url: "https://thevinayakgore.vercel.app",
               name: "Vinayak Gore Portfolio",
-              description: "Frontend Engineer & Creative Technologist",
+              description: "Design Engineer & Creative Technologist",
               author: {
                 "@type": "Person",
                 name: "Vinayak Gore",

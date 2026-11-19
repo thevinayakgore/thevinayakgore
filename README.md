@@ -63,7 +63,7 @@
     </td>
     <td width="50%">
       <p align="center">
-        <a href="https://recallcard.vercel.app" target="_blank">
+        <a href="https://recallcard.pages.dev" target="_blank">
           <img src="./public/projects/recallcard.webp" width="100%" style="border-radius: 10px;" alt="RecallCard" />
         </a>
       </p>
