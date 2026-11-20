@@ -7,13 +7,11 @@
 </h3>
 
 <!-- Daily Quote -->
-<h2 align="center">Daily Quote</h2>
-
 <p align="center">
   <img
+    width="750"
     src="./daily-quote.svg"
     alt="Daily inspirational quote"
-    width="750"
   />
 </p>
 
