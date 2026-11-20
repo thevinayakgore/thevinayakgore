@@ -1,8 +1,20 @@
-<!-- Bento Card - Updated Daily -->
+<h1 align="center">
+  Hi 👋, I'm Vinayak Gore
+</h1>
+
+<h3 align="center">
+  Design Engineer • Frontend Developer • Creator Of Venumity
+</h3>
+
+<!-- Daily Quote -->
+<h2 align="center">Daily Quote</h2>
+
 <p align="center">
-  <a href="https://tvg.venumity.com">
-    <img src="./public/bento-card.png" alt="GitHub Stats Bento Card" width="100%" style="border-radius: 20px;" />
-  </a>
+  <img
+    src="./daily-quote.svg"
+    alt="Daily inspirational quote"
+    width="750"
+  />
 </p>
 
 <!-- Star this profile CTA -->
@@ -41,14 +53,14 @@
     <td width="50%">
       <p align="center">
         <a href="https://www.venumity.com" target="_blank">
-          <img src="./public/projects/venumity.webp" width="100%" style="border-radius: 10px;" alt="Venumity" />
+          <img src="./venumity.webp" width="100%" style="border-radius: 10px;" alt="Venumity" />
         </a>
       </p>
     </td>
     <td width="50%">
       <p align="center">
         <a href="https://ui.venumity.com" target="_blank">
-          <img src="./public/projects/ui.venumity.webp" width="100%" style="border-radius: 10px;" alt="Venumity UI" />
+          <img src="./ui.venumity.webp" width="100%" style="border-radius: 10px;" alt="Venumity UI" />
         </a>
       </p>
     </td>
@@ -56,15 +68,15 @@
   <tr>
     <td width="50%">
       <p align="center">
-        <a href="https://tvg.venumity.com" target="_blank">
-          <img src="./public/projects/tvg.venumity.webp" width="100%" style="border-radius: 10px;" alt="TVG Portfolio" />
+        <a href="https://thevinayakgore.venumity.com" target="_blank">
+          <img src="./thevinayakgore.webp" width="100%" style="border-radius: 10px;" alt="TVG Portfolio" />
         </a>
       </p>
     </td>
     <td width="50%">
       <p align="center">
         <a href="https://recallcard.pages.dev" target="_blank">
-          <img src="./public/projects/recallcard.webp" width="100%" style="border-radius: 10px;" alt="RecallCard" />
+          <img src="./recallcard.webp" width="100%" style="border-radius: 10px;" alt="RecallCard" />
         </a>
       </p>
     </td>
@@ -73,25 +85,25 @@
 
 <p align="center" style="padding: 50px;">
   <a href="https://www.linkedin.com/in/thevinayakgore" target="_blank">
-    <img src="./public/icons/linkedin.webp" alt="LinkedIn" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./linkedin.webp" alt="LinkedIn" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://x.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/twitter.webp" alt="X (Twitter)" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./twitter.webp" alt="X (Twitter)" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.instagram.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/instagram.webp" alt="Instagram" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./instagram.webp" alt="Instagram" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.youtube.com/@TheVinayakGore" target="_blank">
-    <img src="./public/icons/youtube.webp" alt="YouTube" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./youtube.webp" alt="YouTube" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://github.com/thevinayakgore" target="_blank">
-    <img src="./public/icons/github.webp" alt="GitHub" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./github.webp" alt="GitHub" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="mailto:thevinayakgore@gmail.com" target="_blank">
-    <img src="./public/icons/mail.webp" alt="Gmail" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./mail.webp" alt="Gmail" width="50" height="50" style="border-radius: 6px;" />
   </a>
   <a href="https://www.threads.net/@thevinayakgore" target="_blank">
-    <img src="./public/icons/threads.webp" alt="Threads" width="50" height="50" style="border-radius: 6px;" />
+    <img src="./threads.webp" alt="Threads" width="50" height="50" style="border-radius: 6px;" />
   </a>
 </p>
 

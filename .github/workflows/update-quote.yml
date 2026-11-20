@@ -1,0 +1,181 @@
+name: Update Daily Quote
+
+on:
+  schedule:
+    # Three attempts daily:
+    # 06:07, 08:07, and 10:07 IST.
+    - cron: "37 0,2,4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-daily-quote
+  cancel-in-progress: false
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch quote and generate SVG
+        shell: python
+        run: |
+          import json
+          import textwrap
+          import time
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from xml.sax.saxutils import escape
+
+          output = Path("daily-quote.svg")
+          today = datetime.now(timezone.utc).date().isoformat()
+          marker = f"<!-- quote-date: {today} -->"
+
+          if output.exists():
+              existing = output.read_text(encoding="utf-8")
+              if marker in existing:
+                  print("Today's quote has already been generated.")
+                  raise SystemExit(0)
+
+          quote = None
+          author = None
+
+          for attempt in range(4):
+              try:
+                  request = Request(
+                      "https://zenquotes.io/api/today",
+                      headers={"User-Agent": "GitHub-Profile-Daily-Quote/1.0"},
+                  )
+
+                  with urlopen(request, timeout=30) as response:
+                      data = json.load(response)
+
+                  if not isinstance(data, list) or not data:
+                      raise ValueError("Unexpected API response.")
+
+                  item = data[0]
+                  if not isinstance(item, dict):
+                      raise ValueError("Invalid quote record.")
+
+                  raw_quote = item.get("q")
+                  raw_author = item.get("a")
+
+                  if not isinstance(raw_quote, str) or not isinstance(raw_author, str):
+                      raise ValueError("Missing quote or author.")
+
+                  quote = " ".join(raw_quote.split())
+                  author = " ".join(raw_author.split())
+
+                  if not quote or not author:
+                      raise ValueError("Empty quote or author.")
+
+                  error_phrases = (
+                      "too many requests",
+                      "rate limit",
+                      "invalid api",
+                      "api key",
+                  )
+
+                  if any(phrase in quote.lower() for phrase in error_phrases):
+                      raise ValueError("API returned an error instead of a quote.")
+
+                  break
+
+              except Exception as error:
+                  print(f"Attempt {attempt + 1}/4 failed: {error}")
+                  if attempt == 3:
+                      raise RuntimeError(
+                          "Could not fetch a valid quote. Existing SVG was not changed."
+                      ) from error
+                  time.sleep(35)
+
+          quote_lines = textwrap.wrap(
+              f"“{quote}”",
+              width=58,
+              break_long_words=True,
+              break_on_hyphens=False,
+          )
+
+          author_lines = textwrap.wrap(
+              f"— {author}",
+              width=65,
+              break_long_words=True,
+              break_on_hyphens=False,
+          )
+
+          quote_y = 105
+          line_height = 32
+          author_y = quote_y + len(quote_lines) * line_height + 16
+          height = author_y + len(author_lines) * 25 + 35
+
+          parts = [
+              '<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="800" height="{height}" viewBox="0 0 800 {height}">',
+              marker,
+              f'<rect x="1" y="1" width="798" height="{height - 2}" '
+              'rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>',
+              '<text x="40" y="53" fill="#58a6ff" '
+              'font-family="Arial, sans-serif" font-size="23" '
+              'font-weight="700">Daily Quote</text>',
+          ]
+
+          for index, line in enumerate(quote_lines):
+              parts.append(
+                  f'<text x="40" y="{quote_y + index * line_height}" '
+                  'fill="#e6edf3" font-family="Arial, sans-serif" '
+                  f'font-size="22">{escape(line)}</text>'
+              )
+
+          for index, line in enumerate(author_lines):
+              parts.append(
+                  f'<text x="760" y="{author_y + index * 25}" '
+                  'text-anchor="end" fill="#8b949e" '
+                  'font-family="Arial, sans-serif" '
+                  f'font-size="17">{escape(line)}</text>'
+              )
+
+          parts.append("</svg>")
+          output.write_text("\n".join(parts) + "\n", encoding="utf-8")
+          print(f"Generated quote image for {today}.")
+
+      - name: Commit and push quote
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add daily-quote.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update daily quote"
+
+          for attempt in 1 2 3; do
+            git pull --rebase
+            if git push; then
+              exit 0
+            fi
+            sleep 5
+          done
+
+          echo "Failed to push the daily quote."
+          exit 1
