@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="245" viewBox="0 0 800 245">
-<!-- quote-date: 2026-11-22 -->
-<rect x="1" y="1" width="798" height="243" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="213" viewBox="0 0 800 213">
+<!-- quote-date: 2026-11-23 -->
+<rect x="1" y="1" width="798" height="211" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
 <text x="40" y="53" fill="#58a6ff" font-family="Arial, sans-serif" font-size="23" font-weight="700">Daily Quote</text>
-<text x="40" y="105" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">“Peace is not the absence of conflict, but the ability to</text>
-<text x="40" y="137" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">cope with it.”</text>
-<text x="760" y="185" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="17">— Unknown</text>
+<text x="40" y="105" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">“Have a vision. Be demanding.”</text>
+<text x="760" y="153" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="17">— Colin Powell</text>
 </svg>
