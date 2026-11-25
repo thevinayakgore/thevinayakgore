@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="277" viewBox="0 0 800 277">
-<!-- quote-date: 2026-11-24 -->
-<rect x="1" y="1" width="798" height="275" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="245" viewBox="0 0 800 245">
+<!-- quote-date: 2026-11-25 -->
+<rect x="1" y="1" width="798" height="243" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
 <text x="40" y="53" fill="#58a6ff" font-family="Arial, sans-serif" font-size="23" font-weight="700">Daily Quote</text>
-<text x="40" y="105" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">“The size of your success is measured by the strength of</text>
-<text x="40" y="137" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">your desire; the size of your dream; and how you handle</text>
-<text x="40" y="169" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">disappointment along the way.”</text>
-<text x="760" y="217" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="17">— Robert Kiyosaki</text>
+<text x="40" y="105" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">“We have to live life with a sense of urgency so not a</text>
+<text x="40" y="137" fill="#e6edf3" font-family="Arial, sans-serif" font-size="22">minute is wasted.”</text>
+<text x="760" y="185" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="17">— Les Brown</text>
 </svg>
